@@ -53,7 +53,7 @@ public class PrivacyGuardPrefs extends SettingsPreferenceFragment implements
         mPrivacyGuardDefault.setOnPreferenceChangeListener(this);
 
         mPrivacyGuardDefault.setChecked(Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1);
+                Settings.Secure.PRIVACY_GUARD_DEFAULT, 1) == 1);
     }
 
     @Override
