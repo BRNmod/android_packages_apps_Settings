@@ -1169,9 +1169,12 @@ public class SettingsActivity extends Activity
     }
 
     private void updateTilesList(List<DashboardCategory> target) {
+        final boolean devSettingsEnabled = android.provider.Settings.Global.getInt(
+                getApplicationContext().getContentResolver(),
+                android.provider.Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) == 1;
         final boolean showDev = mDevelopmentPreferences.getBoolean(
                 DevelopmentSettings.PREF_SHOW,
-                android.os.Build.TYPE.equals("eng"));
+                devSettingsEnabled || android.os.Build.TYPE.equals("eng"));
 
         final UserManager um = (UserManager) getSystemService(Context.USER_SERVICE);
         final PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
