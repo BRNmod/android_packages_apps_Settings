@@ -72,6 +72,8 @@
     <uses-permission android:name="android.permission.OEM_UNLOCK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.HARDWARE_ABSTRACTION_ACCESS" />
+    <uses-permission android:name="com.cyanogen.permission.REQUEST_KILL_SWITCH_OP" />
+    <uses-permission android:name="cyanogenmod.permission.FINISH_SETUP" />
 
     <permission
         android:name="cyanogenmod.permission.PROTECTED_APP"
@@ -1245,18 +1247,6 @@
         <activity android:name=".EncryptionInterstitial"/>
 
         <!-- Runs in the phone process since it needs access to the Phone object -->
-        <activity android:name=".deviceinfo.msim.MSimSubscriptionStatus"
-                android:label="@string/device_status_activity_title"
-                android:theme="@style/Theme.Settings"
-                android:process="com.android.phone">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-            </intent-filter>
-        </activity>
-
-        <!-- Runs in the phone process since it needs access to the Phone object -->
         <activity android:name=".deviceinfo.Status"
                 android:label="@string/device_status_activity_title"
                 android:theme="@style/Theme.SubSettingsDialogWhenLarge"
@@ -1941,17 +1931,6 @@
                 android:resource="@id/wireless_settings" />
         </activity>
 
-        <!-- Select Subscription (SUB1 or SUB2) Screen -->
-        <activity android:name=".SelectSubscription"
-                android:label="@string/subs_settings"
-                android:process="com.android.phone"
-                android:clearTaskOnLaunch="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-            </intent-filter>
-        </activity>
         <activity android:name="Settings$DreamSettingsActivity"
                 android:label="@string/screensaver_settings_title"
                 android:taskAffinity="">
@@ -2356,6 +2335,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".profiles.SetupDefaultProfileReceiver">
+            <intent-filter>
+                <action android:name="com.cyanogenmod.setupwizard.SETUP_FINISHED" />
+            </intent-filter>
+        </receiver>
 
     </application>
 </manifest>

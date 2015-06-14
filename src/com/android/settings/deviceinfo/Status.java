@@ -44,6 +44,7 @@ import android.telephony.PhoneNumberUtils;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.TelephonyManager;
+import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.text.TextUtils;
 import android.view.MenuItem;
@@ -59,7 +60,6 @@ import com.android.internal.telephony.PhoneStateIntentReceiver;
 import com.android.internal.telephony.SubscriptionController;
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.R;
-import com.android.settings.SelectSubscription;
 import com.android.settings.Utils;
 
 import java.lang.ref.WeakReference;
@@ -102,6 +102,8 @@ public class Status extends PreferenceActivity {
     private static final String KEY_SERIAL_NUMBER = "serial_number";
     private static final String KEY_ICC_ID = "icc_id";
     private static final String KEY_WIMAX_MAC_ADDRESS = "wimax_mac_address";
+    private static final String KEY_SIM_STATUS = "sim_status";
+    private static final String KEY_IMEI_INFO = "imei_info";
 
     private static final String[] PHONE_RELATED_ENTRIES = {
         KEY_DATA_STATE,
@@ -120,7 +122,7 @@ public class Status extends PreferenceActivity {
         KEY_ICC_ID
     };
 
-    private static final String BUTTON_SELECT_SUB_KEY = "button_aboutphone_msim_status";
+    private static final String BUTTON_SUBSCRIPTIONS_KEY = "button_aboutphone_msim_status";
 
     static final String CB_AREA_INFO_RECEIVED_ACTION =
             "android.cellbroadcastreceiver.CB_AREA_INFO_RECEIVED";
@@ -278,7 +280,7 @@ public class Status extends PreferenceActivity {
         mTelephonyManager = (TelephonyManager)getSystemService(TELEPHONY_SERVICE);
         mWifiManager = (WifiManager) getSystemService(WIFI_SERVICE);
 
-        if (isMultiSimEnabled()) {
+        if (UserHandle.myUserId() == UserHandle.USER_OWNER && isMultiSimEnabled()) {
             addPreferencesFromResource(R.xml.device_info_msim_status);
         } else {
             addPreferencesFromResource(R.xml.device_info_status);
@@ -395,6 +397,12 @@ public class Status extends PreferenceActivity {
             removePreferenceFromScreen(KEY_SERIAL_NUMBER);
         }
 
+        //Remove SimStatus and Imei for Secondary user
+        if (UserHandle.myUserId() != UserHandle.USER_OWNER) {
+            removePreferenceFromScreen(KEY_SIM_STATUS);
+            removePreferenceFromScreen(KEY_IMEI_INFO);
+        }
+
         // Make every pref on this screen copy its data to the clipboard on longpress.
         // Super convenient for capturing the IMEI, MAC addr, serial, etc.
         getListView().setOnItemLongClickListener(
@@ -416,12 +424,32 @@ public class Status extends PreferenceActivity {
                 }
             });
 
-        PreferenceScreen selectSub = (PreferenceScreen) findPreference(BUTTON_SELECT_SUB_KEY);
-        if (selectSub != null) {
-            Intent intent = selectSub.getIntent();
-            intent.putExtra(SelectSubscription.PACKAGE, "com.android.settings");
-            intent.putExtra(SelectSubscription.TARGET_CLASS,
-                    "com.android.settings.deviceinfo.msim.MSimSubscriptionStatus");
+        Preference subs = findPreference(BUTTON_SUBSCRIPTIONS_KEY);
+        if (subs != null) {
+            PreferenceScreen prefSet = getPreferenceScreen();
+            int numPhones = TelephonyManager.getDefault().getPhoneCount();
+            SubscriptionManager subscriptionManager = SubscriptionManager.from(this);
+
+            for (int i = 0; i < numPhones; i++) {
+                SubscriptionInfo sir =
+                        subscriptionManager.getActiveSubscriptionInfoForSimSlotIndex(i);
+                Preference pref = new Preference(this);
+
+                pref.setOrder(subs.getOrder());
+                pref.setTitle(getString(R.string.sim_card_status_title, i + 1));
+                if (sir != null) {
+                    pref.setSummary(sir.getDisplayName());
+                } else {
+                    pref.setSummary(R.string.sim_card_summary_empty);
+                }
+
+                Intent intent = new Intent(this, SimStatus.class);
+                intent.putExtra(SimStatus.EXTRA_SLOT_ID, i);
+                pref.setIntent(intent);
+
+                prefSet.addPreference(pref);
+            }
+            prefSet.removePreference(subs);
         }
     }
 

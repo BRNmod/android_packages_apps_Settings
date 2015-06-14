@@ -82,6 +82,7 @@
   <string name="profile_choose_app">アプリを選択</string>
   <string name="profile_system_settings_title">システムの設定</string>
   <string name="profile_lockmode_title">ロック画面モード</string>
+  <string name="profile_lockmode_policy_disabled_summary">このプロファイルオプションは端末管理者の方針によって無効にされています</string>
   <string name="profile_lockmode_insecure_summary">PINまたはパスワードを要求しない</string>
   <string name="profile_lockmode_disabled_summary">ロック画面を無効にする</string>
   <string name="profile_airplanemode_title">機内モード</string>
@@ -124,6 +125,8 @@
   <string name="volbtn_cursor_control_on_reverse">音量を上げる/下げるボタンでカーソルを右/左に移動する</string>
   <string name="swap_volume_buttons_title">再配置</string>
   <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
+  <string name="volume_keys_control_ring_stream_title">音量キーで着信音量をコントロール</string>
+  <string name="volume_keys_control_ring_stream_summary">ONにすると音量キーで着信音量をコントロールします。OFFにすると音量キーでメディア音量をコントロールします。</string>
   <string name="power_end_call_title">通話を終了</string>
   <string name="power_end_call_summary">電源ボタンを押して通話を終了する</string>
   <string name="button_wake_title">端末をスリープ解除</string>
@@ -158,9 +161,14 @@
   <string name="sunlight_enhancement_summary">太陽光照射下で画面を明るくして見やすくする</string>
   <string name="color_enhancement_title">色の補正</string>
   <string name="color_enhancement_summary">画面の色をリアルタイムに補正する</string>
+  <string name="blacklist_title">着信拒否リスト</string>
+  <string name="blacklist_edit_dialog_title">着信拒否した電話番号を編集</string>
   <string name="blacklist_prefs">設定</string>
   <string name="blacklist_button_delete">削除</string>
+  <string name="blacklist_empty_text">着信拒否した番号がありません。追加（+）ボタンをタップしてエントリーを追加します。</string>
+  <string name="blacklist_disabled_empty_text">特定の電話番号からの通話やメッセージを拒否するには、着信拒否リストを有効にしてください。</string>
   <string name="blacklist_summary_disabled">無効</string>
+  <string name="blacklist_summary">着信拒否リストにある電話番号からの着信やメッセージを受け取らないようにする</string>
   <string name="blacklist_notify">通知を表示</string>
   <string name="blacklist_private_numbers_title">非通知番号</string>
   <string name="blacklist_private_numbers_summary_disabled">非通知番号からの着信をブロックしない</string>
@@ -175,7 +183,9 @@
   <string name="blacklist_regex_summary">「.」をワイルドカードとして使用し、「*」を繰り返しとして使用します。例えば「123.*」なら123から始まる番号をブロックし、｢.*123.*｣なら123を含む番号をブロックします。</string>
   <string name="blacklist_policy_block_calls">着信をブロックする</string>
   <string name="blacklist_policy_block_messages">メッセージをブロックする</string>
+  <string name="blacklist_bad_number_add">無効な電話番号は着信拒否リストに追加できません</string>
   <string name="remove_blacklist_number_title">番号を削除</string>
+  <string name="remove_blacklist_entry">この拒否している電話番号を削除しますか？</string>
   <string name="select_contact">連絡先を選択</string>
   <string name="lockpattern_reset_button">パターンをリセット</string>
   <string name="lockpattern_settings_reset_summary">パターンをリセットするにはプライマリメールアカウントと関連付けられているパスワードを入力してください</string>
@@ -199,7 +209,9 @@
   <string name="display_rotation_270_title">270度</string>
   <string name="app_security_title">アプリのセキュリティ</string>
   <string name="sms_security_check_limit_title">SMSメッセージの制限</string>
-  <string name="sms_security_check_limit_summary">アプリは確認を要求しないで30分間に%d通のメッセージを送信することができます</string>
+  <string name="sms_security_check_limit_summary">アプリは確認をする前に1分間に%d通のメッセージを送信することができます</string>
+  <string name="sms_security_check_limit_summary_none">アプリは許可無くメッセージを送信することはできません</string>
+  <string name="sms_security_check_limit_none">なし</string>
   <string name="spam_added_title">%1$sを追加しました</string>
   <string name="spam_last_blocked_title">%1$sを前回ブロックしました</string>
   <string name="block_notifications_title">通知のフィルタリング</string>
@@ -212,6 +224,8 @@
   <string name="update_recovery_off_warning">警告: この機能を無効にすると、インストールされているリカバリーはOSのアップグレードと同時にはアップデートされなくなります。\n\nカスタムリカバリーバージョンが古いと、今後のOSアップデートがインストールできなくなる恐れがあります。\n\nこの機能を本当に無効にしますか？</string>
   <string name="mod_version">CyanogenModバージョン</string>
   <string name="mod_version_default">不明</string>
+  <string name="device_model">端末モデル</string>
+  <string name="device_name">端末名</string>
   <string name="build_date">ビルド日時</string>
   <string name="contributor_cloud_title">貢献者</string>
   <string name="phone_service_state">音声: <xliff:g id="voice_state">%1$s</xliff:g> データ: <xliff:g id="data_state">%2$s</xliff:g></string>
@@ -230,6 +244,7 @@
   <string name="privacy_guard_reset_text">権限をリセットしますか？</string>
   <string name="privacy_guard_help_text">この画面では、どのアプリでプライバシーガードを有効にするかタップするだけで選択できます。選択されたアプリは連絡先、メッセージ、通話履歴のような個人データにアクセスできなくなります。エントリーを長押しするとそのアプリの詳細画面が開きます。\n\n内蔵アプリはデフォルトでは表示されませんが、それぞれのメニューオプションから選択することで表示させることができます。</string>
   <string name="privacy_guard_manager_show_system_apps">内蔵アプリを表示</string>
+  <string name="app_ops_btn_text">変更</string>
   <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
   <string name="increasing_ring_min_volume_title">開始音量</string>
   <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
@@ -291,10 +306,6 @@
   <string name="status_bar_battery_percentage_default">表示しない</string>
   <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
   <string name="status_bar_battery_percentage_text_next">アイコンの隣</string>
-  <string name="status_bar_show_unused_sims_title">SIMなしアイコンを表示</string>
-  <string name="status_bar_show_unused_sims_title_summary_off">未使用のSIMスロットのアイコンを非表示にする</string>
-  <string name="status_bar_show_unused_sims_title_summary_on">未使用のSIMスロットを表示する</string>
-  <string name="sim_name_hint">SIM名を入力してください</string>
   <string name="edit_light_settings">ライトの設定を編集</string>
   <string name="pulse_speed_title">点滅時間と点滅速度</string>
   <string name="default_time">標準</string>
@@ -561,7 +572,6 @@
   <string name="sim_pin_attempts">\n残り試行回数:</string>
   <string name="sim_pin_enabled">PIN1有効</string>
   <string name="sim_pin_disabled">PIN1無効</string>
-  <string name="subs_settings">SIMカードの状態</string>
   <string name="storage_usb">USBストレージ</string>
   <string name="storage_uicc">UICCストレージ</string>
   <string name="sdcard_eject" product="default">SDカードをマウント解除</string>
@@ -638,6 +648,7 @@
   <string name="usb_charging_summary">パソコンとのすべてのデータの転送を無効にしてUSBポート経由で端末を充電します</string>
   <string name="usb_sdcard_title">マスストレージ（UMS）</string>
   <string name="usb_sdcard_summary">フラッシュデバイスとしてマウントすることでパソコンとSDカードの間で任意のファイルを転送できます</string>
+  <string name="usb_not_connected">USBが切断されました</string>
   <string name="external_storage_turn_on">外部ストレージがONになりました</string>
   <string name="external_storage_turn_off">外部ストレージがOFFになりました</string>
   <string name="stats_collection_title">統計の収集</string>
@@ -677,7 +688,6 @@
   <string name="edge_gesture_service_summary">ナビゲーションバーとステータスバーのジェスチャーのタッチイベントをアプリに送信しない</string>
   <string name="cmlicense_title">CyanogenMod利用規約</string>
   <string name="settings_cmlicense_activity_title">CyanogenMod利用規約</string>
-  <string name="settings_cmlicense_activity_unreachable">データ接続がありません。この情報を表示するにはインターネットに接続されているパソコンから%sにアクセスしてください。</string>
   <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
   <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
@@ -722,11 +732,15 @@
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">画面のタイムアウト</string>
   <string name="qs_tile_usb_tether">USBテザリング</string>
+  <string name="qs_tile_heads_up">ヘッドアップ</string>
+  <string name="qs_tile_ambient_display">常時オンディスプレイ</string>
+  <string name="qs_tile_sync">同期</string>
   <string name="qs_main_tiles_title">1行目を拡大</string>
   <string name="qs_main_tiles_summary_on">1行目に2個のメインタイル</string>
   <string name="qs_main_tiles_summary_off">行ごとに3個のタイル</string>
   <string name="qs_advanced_location_title">詳細な位置情報の設定</string>
   <string name="qs_advanced_location_summary">クイック設定で詳細な位置情報の設定を有効にする</string>
+  <string name="sim_no_number_set">番号が割り当てられていません</string>
   <string name="gesture_settings_title">ジェスチャー</string>
   <string name="themes_settings_title">テーマ</string>
   <string name="wifi_mode">モード</string>
@@ -760,6 +774,11 @@
   <string name="whisperpush_summary">セキュアSMSの設定を管理する</string>
   <string name="navigation_ring_title">ナビゲーションリングのターゲット</string>
   <string name="navigation_ring_message">編集アイコンをタップしてナビゲーションバーのロックを解除してください。\n\nターゲットを選択して動作を設定してください。\n\n「\u2713」アイコンをタップして変更を保存するか、「デフォルトに戻す」をタップしてレイアウトをデフォルトの設定に戻してください。</string>
+  <string name="lcd_density">画素密度</string>
+  <string name="dialog_title_lcd_density">画素密度</string>
+  <string name="lcd_density_value_format">%d DPI</string>
+  <string name="lcd_density_default_value_format">%d DPI（デフォルト）</string>
+  <string name="restarting_ui">UIを再起動中\u2026</string>
   <string name="stylus_icon_enabled_title">スタイラス使用時にアイコンを表示</string>
   <string name="stylus_icon_enabled_summary">スタイラスでホバリングまたは描写しているときにポインターアイコンを表示する</string>
   <string name="gestures_settings_title">スタイラスジェスチャー</string>
@@ -791,7 +810,7 @@
   <string name="category_interface">インターフェース</string>
   <string name="category_calibration">キャリブレーション</string>
   <string name="display_and_lights">ディスプレイとライト</string>
-  <string name="notification_manager">通知マネージャー</string>
+  <string name="notification_manager">通知</string>
   <string name="lockscreen_settings">ロック画面</string>
   <string name="category_lights">ライト</string>
   <string name="power_usage_history_title">電池の履歴</string>
@@ -800,6 +819,9 @@
   <string name="sim_ringtone_title">SIM %dの着信音</string>
   <string name="interruptions_ignore_while_media_title">オーディオダッキングを無効化</string>
   <string name="interruptions_ignore_while_media_summary">通知が来たときにメディアの再生音量を下げないようにする</string>
+  <string name="none_is_silent_title">アラームをミュートしない</string>
+  <string name="none_is_silent_summary">サイレントモードでアラームを常に鳴らす</string>
+  <string name="allow_lights_title">通知ライトを許可</string>
   <string name="live_display_summary">画面を見やすく目を疲れにくくするために時間と周囲の環境に合わせて画面を最適化する</string>
   <string name="live_display_mode">ディスプレイのモード</string>
   <string name="live_display_color_temperature_title">色温度</string>
@@ -829,4 +851,20 @@
   <string name="preview_version_title">バージョン</string>
   <string name="preview_country_title">国</string>
   <string name="preview_carrier_title">キャリア</string>
+  <string name="heads_up_notifications">ヘッドアップ</string>
+  <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
+  <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
+  <string name="master_clear_desc_cm" product="tablet">お使いのタブレットの<b>内部ストレージ</b>から以下を含めたすべてのデータを消去します:\n\n<li>端末のアカウント</li>\n<li>システムとアプリのデータや設定</li>\n<li>ダウンロードしたアプリ</li></string>
+  <string name="master_clear_desc_cm" product="default">お使いの携帯電話の<b>内部ストレージ</b>から以下を含めたすべてのデータを消去します:\n\n<li>端末のアカウント</li>\n<li>システムとアプリのデータや設定</li>\n<li>ダウンロードしたアプリ</li></string>
+  <string name="lock_to_cyanogen_title">端末の保護</string>
+  <string name="lock_to_cyanogen_summary">工場出荷時の状態にリセットした後でもCyanogen OSアカウントのパスワードを要求する</string>
+  <string name="lock_to_cyanogen_create_account_msg">この端末は工場出荷時の状態にリセットされた場合でも端末を保護するためにCyanogen OSアカウントのパスワードを使用します。Cyanogen OSアカウントの作成が必要になります。</string>
+  <string name="lock_to_cyanogen_disable_msg">この機能を無効にすると、盗難時にお使いの携帯電話を工場出荷時の状態にリセットすることを不正なユーザーに許可することになります。あなたの個人データが保護されない可能性があります。この機能を無効にしますか？</string>
+  <string name="lock_to_cyanogen_master_clear_warning">端末の保護が有効になっています。端末のリセットを続けるには無効にしてください。</string>
+  <string name="bluetooth_pan_profile_summary_use_for_error">接続エラー: Bluetoothテザリングが有効になっていますか？</string>
+  <string name="sim_card_status_title">SIM %dの状態</string>
+  <string name="sim_card_lock_settings_title">SIM %dのロックの設定</string>
+  <string name="sim_card_summary_empty">SIMが挿入されていません</string>
+  <string name="sim_mobile_network_settings_category_title">モバイルネットワークの設定</string>
+  <string name="sim_mobile_network_settings_title">SIM %dの設定</string>
 </resources>

@@ -17,6 +17,7 @@
 package com.android.settings.sim;
 
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -58,16 +59,17 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private static final String DISALLOW_CONFIG_SIM = "no_config_sim";
     private static final String SIM_ENABLER_CATEGORY = "sim_enablers";
     private static final String SIM_ACTIVITIES_CATEGORY = "sim_activities";
+    private static final String MOBILE_NETWORK_CATEGORY = "mobile_network";
     private static final String KEY_CELLULAR_DATA = "sim_cellular_data";
     private static final String KEY_CALLS = "sim_calls";
     private static final String KEY_SMS = "sim_sms";
     private static final String KEY_ACTIVITIES = "activities";
     private static final String KEY_PRIMARY_SUB_SELECT = "select_primary_sub";
 
-    private long mPreferredDataSubscription;
-
     private static final int EVT_UPDATE = 1;
-    private static int mNumSlots = 0;
+
+    private long mPreferredDataSubscription;
+    private int mNumSlots = 0;
 
     /**
      * By UX design we have use only one Subscription Information(SubInfo) record per SIM slot.
@@ -78,7 +80,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private List<SubscriptionInfo> mSubInfoList = null;
     private Preference mPrimarySubSelect = null;
 
-    private static List<MultiSimEnablerPreference> mSimEnablers = null;
+    private List<MultiSimEnablerPreference> mSimEnablers = null;
 
     private SubscriptionInfo mCellularData = null;
     private SubscriptionInfo mCalls = null;
@@ -88,10 +90,7 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     private int mPhoneCount;
     private int[] mCallState;
     private PhoneStateListener[] mPhoneStateListener;
-
-    private boolean inActivity;
-    private boolean dataDisableToastDisplayed = false;
-
+    private boolean mDataDisableToastDisplayed = false;
     private SubscriptionManager mSubscriptionManager;
 
     public SimSettings() {
@@ -187,6 +186,8 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
         mPrimarySubSelect = (Preference) findPreference(KEY_PRIMARY_SUB_SELECT);
         final PreferenceCategory simEnablers =
                 (PreferenceCategory)findPreference(SIM_ENABLER_CATEGORY);
+        final PreferenceCategory mobileNetwork =
+                (PreferenceCategory) findPreference(MOBILE_NETWORK_CATEGORY);
 
         mAvailableSubInfos = new ArrayList<SubscriptionInfo>(mNumSlots);
         mSimEnablers = new ArrayList<MultiSimEnablerPreference>(mNumSlots);
@@ -204,6 +205,17 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
                 mNumSims++;
                 mAvailableSubInfos.add(sir);
             }
+
+            Intent mobileNetworkIntent = new Intent();
+            mobileNetworkIntent.setComponent(new ComponentName(
+                        "com.android.phone", "com.android.phone.MobileNetworkSettings"));
+            SubscriptionManager.putPhoneIdAndSubIdExtra(mobileNetworkIntent,
+                    i, sir != null ? sir.getSubscriptionId() : -1);
+            Preference mobileNetworkPref = new Preference(getActivity());
+            mobileNetworkPref.setTitle(
+                    getString(R.string.sim_mobile_network_settings_title, (i + 1)));
+            mobileNetworkPref.setIntent(mobileNetworkIntent);
+            mobileNetwork.addPreference(mobileNetworkPref);
         }
     }
 
@@ -314,14 +326,14 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
         simPref.setEnabled((mNumSims > 1) && callStateIdle);
         // Display toast only once when the user enters the activity even though the call moves
         // through multiple call states (eg - ringing to offhook for incoming calls)
-        if (callStateIdle == false && inActivity && dataDisableToastDisplayed == false) {
+        if (callStateIdle == false && isResumed() && !mDataDisableToastDisplayed) {
             Toast.makeText(getActivity(), R.string.data_disabled_in_active_call,
                     Toast.LENGTH_SHORT).show();
-            dataDisableToastDisplayed = true;
+            mDataDisableToastDisplayed = true;
         }
         // Reset dataDisableToastDisplayed
-        if (callStateIdle == true) {
-            dataDisableToastDisplayed = false;
+        if (callStateIdle) {
+            mDataDisableToastDisplayed = false;
         }
     }
 
@@ -350,9 +362,8 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     @Override
     public void onPause() {
         super.onPause();
-        inActivity = false;
         Log.d(TAG,"on Pause");
-        dataDisableToastDisplayed = false;
+        mDataDisableToastDisplayed = false;
         for (int i = 0; i < mSimEnablers.size(); ++i) {
             MultiSimEnablerPreference simEnabler = mSimEnablers.get(i);
             if (simEnabler != null) simEnabler.cleanUp();
@@ -362,7 +373,6 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
     @Override
     public void onResume() {
         super.onResume();
-        inActivity = true;
         Log.d(TAG,"on Resume, number of slots = " + mNumSlots);
         initLTEPreference();
         updateAllOptions();
@@ -427,10 +437,12 @@ public class SimSettings extends RestrictedSettingsFragment implements Indexable
             final Preference preference) {
         if (preference instanceof MultiSimEnablerPreference) {
             ((MultiSimEnablerPreference) preference).createEditDialog();
+            return true;
         }  else if (preference == mPrimarySubSelect) {
             startActivity(mPrimarySubSelect.getIntent());
+            return true;
         }
-        return true;
+        return false;
     }
 
     public void createDropDown(DropDownPreference preference) {

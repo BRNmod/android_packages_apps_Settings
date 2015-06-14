@@ -197,7 +197,6 @@
   <string name="display_rotation_270_title">270 degrees</string>
   <string name="app_security_title">App security</string>
   <string name="sms_security_check_limit_title">SMS message limit</string>
-  <string name="sms_security_check_limit_summary">Apps can send %d messages in 30 minutes before requiring confirmation</string>
   <string name="spam_added_title">Added %1$s</string>
   <string name="spam_last_blocked_title">Last blocked %1$s</string>
   <string name="block_notifications_title">Filter notifications</string>
@@ -289,9 +288,6 @@
   <string name="status_bar_battery_percentage_default">Hidden</string>
   <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
   <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-  <string name="status_bar_show_unused_sims_title">Show empty SIM icons</string>
-  <string name="status_bar_show_unused_sims_title_summary_off">Hide icons of unused SIM slots</string>
-  <string name="status_bar_show_unused_sims_title_summary_on">Indicate unused SIM slots</string>
   <string name="edit_light_settings">Edit light settings</string>
   <string name="pulse_speed_title">Pulse length and speed</string>
   <string name="default_time">Normal</string>
@@ -558,7 +554,6 @@
   <string name="sim_pin_attempts">\nAttempts remaining:</string>
   <string name="sim_pin_enabled">PIN1 enabled</string>
   <string name="sim_pin_disabled">PIN1 disabled</string>
-  <string name="subs_settings">SIM card status</string>
   <string name="storage_usb">USB storage</string>
   <string name="storage_uicc">UICC storage</string>
   <string name="sdcard_eject" product="default">Unmount SD card</string>
@@ -669,7 +664,6 @@
   <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
   <string name="cmlicense_title">CyanogenMod legal</string>
   <string name="settings_cmlicense_activity_title">CyanogenMod legal</string>
-  <string name="settings_cmlicense_activity_unreachable">You don\'t have a data connection. To view this information now, go to %s from any computer connected to the Internet.</string>
   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
@@ -779,7 +773,6 @@
   <string name="category_interface">Interface</string>
   <string name="category_calibration">Calibration</string>
   <string name="display_and_lights">Display &amp; lights</string>
-  <string name="notification_manager">Notification manager</string>
   <string name="lockscreen_settings">Lock screen</string>
   <string name="category_lights">Lights</string>
   <string name="power_usage_history_title">Battery usage</string>

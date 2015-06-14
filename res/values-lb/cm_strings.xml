@@ -17,14 +17,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="show_dev_countdown_cm">
-    <item quantity="one">Du bass <xliff:g id="step_count">%1$d</xliff:g> Schrëtt dovun ewech, d\'Entwécklerastellungen z\'aktivéieren.</item>
-    <item quantity="other">Du bass <xliff:g id="step_count">%1$d</xliff:g> Schrëtter dovun ewech, d\'Entwécklerastellungen z\'aktivéieren.</item>
+    <item quantity="one">Du bass <xliff:g id="step_count">%1$d</xliff:g> Schrëtt dovun ewech, d\'Entwéckleroptiounen z\'aktivéieren.</item>
+    <item quantity="other">Du bass <xliff:g id="step_count">%1$d</xliff:g> Schrëtter dovun ewech, d\'Entwéckleroptiounen z\'aktivéieren.</item>
   </plurals>
-  <string name="show_dev_on_cm">Du hues d\'Entwécklerastellungen aktivéiert!</string>
+  <string name="show_dev_on_cm">Du hues d\'Entwéckleroptiounen aktivéiert!</string>
   <string name="show_dev_already_cm">Net néideg, du hues d\'Entwécklungsastellunge schonn aktivéiert.</string>
   <string name="development_tools_title">Entwécklungsgeschir</string>
   <string name="root_access">Root-Zougrëff</string>
-  <string name="root_access_warning_title">Root-Accès erlaaben?</string>
+  <string name="root_access_warning_title">Root-Accès erlaben?</string>
   <string name="root_access_warning_message">Appen de Root-Zougrëff erméigleche ka geféierlech sinn an d\'Sécherheet vum System beanträchtegen!</string>
   <string name="root_access_none">Desaktivéiert</string>
   <string name="root_access_apps">Just Appen</string>
@@ -44,7 +44,7 @@
   <string name="profile_write_success">Den Tag gouf erfollegräich beschriwwen</string>
   <string name="profile_write_failed">D\'Beschreiwe vum Tag ass feelgeschloen!</string>
   <string name="profile_selected">Profil ausgewielt: %1$s</string>
-  <string name="profile_nfc_text">Duerch d\'Schreiwe vun engem Profil op en NFC-Tag erméiglecht et de jeeweilege Profil duerch eng Beréierung mam Apparat z\'aktivéieren. Eng weider Beréierung reaktivéiert de Profil virdrun.</string>
+  <string name="profile_nfc_text">Duerch d\'Schreiwe vun engem Profil op en NFC-Tag erméiglecht et de jeeweilege Profil duerch eng Beréierung mam Apparat z\'aktivéieren. Eng weider Beréierung reaktivéiert de Profil vu virdrun.</string>
   <string name="profile_unknown_nfc_tag">Onbekannte Profil</string>
   <string name="profile_add_nfc_text">Dësen NFC-Tag verweist op en onbekannte Profil. D\'Verknäppe vum NFC-Tag mat engem existéierende Profil erméiglecht et, de jeeweilege Profil an Zukunft duerch eng Beréierung z\'aktivéieren.</string>
   <string name="profile_select">Profil auswielen</string>
@@ -52,6 +52,7 @@
   <string name="profile_populate_profile_from_state">Profil mat aktuellen Astellunge vum Apparat konfiguréieren?</string>
   <string name="profile_menu_fill_from_state">Aktuell Astellunge vum Apparat importéieren</string>
   <string name="profile_remove_current_profile">Kann den aktuelle Profil net läschen!</string>
+  <string name="profile_app_group_item_instructions">Gruppen dobäisetzen oder läschen</string>
   <string name="profile_entries_on">Un</string>
   <string name="profile_entries_off">Aus</string>
   <string name="profile_entries_no_override">Net iwwerschreiwen</string>
@@ -83,7 +84,9 @@
   <string name="profile_lockmode_insecure_summary">Net no PIN oder Passwuert froen</string>
   <string name="profile_lockmode_disabled_summary">Spärschierm desaktivéieren</string>
   <string name="profile_airplanemode_title">Fligermodus</string>
+  <string name="profile_brightness_title">Schiermhellegkeet</string>
   <string name="profile_brightness_override_summary">Op %1$d%% setzen</string>
+  <string name="profile_brightness_override_checkbox_label">Hellegkeet iwwerschreiwen</string>
   <string name="toggleWifi">WLAN</string>
   <string name="toggleWifiAp">Mobile WLAN-Hotspot</string>
   <string name="toggleBluetooth">Bluetooth</string>
@@ -94,7 +97,7 @@
   <string name="toggleNfc">NFC</string>
   <string name="button_pref_title">Knäppercher</string>
   <string name="hardware_keys_power_key_title">Un-/Aus-Schalter</string>
-  <string name="hardware_keys_home_key_title">Heemknäppchen</string>
+  <string name="hardware_keys_home_key_title">Startsäit-Knäppchen</string>
   <string name="hardware_keys_back_key_title">Zréckknäppchen</string>
   <string name="hardware_keys_menu_key_title">Menüknäppchen</string>
   <string name="hardware_keys_assist_key_title">Sichknäppchen</string>
@@ -154,6 +157,7 @@
   <string name="sunlight_enhancement_summary">Liesbarkeet vum Schierm bei hellem Sonneliicht verbesseren</string>
   <string name="color_enhancement_title">Faarfverbesserung</string>
   <string name="color_enhancement_summary">Faarfduerstellung vum Schierm dynamesch verbesseren</string>
+  <string name="blacklist_title">Lëscht vu blockéierten Nummeren</string>
   <string name="blacklist_prefs">Astellungen</string>
   <string name="blacklist_button_delete">Läschen</string>
   <string name="blacklist_summary_disabled">Desaktivéiert</string>
@@ -195,7 +199,6 @@
   <string name="display_rotation_270_title">270 Grad</string>
   <string name="app_security_title">App-Sécherheet</string>
   <string name="sms_security_check_limit_title">SMS-Messagëlimitt</string>
-  <string name="sms_security_check_limit_summary">Appe kënne(n) %d Messagen an 30 Minutte schécken ier eng Bestätegung gefrot gëtt</string>
   <string name="spam_added_title">%1$s dobäigesat</string>
   <string name="spam_last_blocked_title">%1$s fir d\'lescht blockéiert</string>
   <string name="block_notifications_title">Notifikatiounsfilter</string>
@@ -204,9 +207,11 @@
   <string name="cmupdate_settings_title">CyanogenMod-Aktualiséierungen</string>
   <string name="update_recovery_title">Cyanogen-Recovery aktualiséieren</string>
   <string name="update_recovery_summary">De Recovery-Programm zesumme mam System aktualiséieren</string>
-  <string name="update_recovery_off_warning">WARNUNG: Wann dës Funktioun deaktivéiert ass, gëtt däin installéierte Recovery-Programm net mat dengem System aktualiséiert.\n\nZukünfteg System-Aktualiséierunge loosse sech mat veraalten oder eegene Recovery-Programmer eventuell net installéierne.\n\nWëlls du dës Funktioun sécher deaktivéieren?</string>
+  <string name="update_recovery_off_warning">WARNUNG: Wann dës Funktioun desaktivéiert ass, gëtt däin installéierte Recovery-Programm net mat dengem System aktualiséiert.\n\nZukünfteg System-Aktualiséierunge loosse sech mat veraalten oder eegene Recovery-Programmer eventuell net installéierne.\n\nWëlls du dës Funktioun sécher desaktivéieren?</string>
   <string name="mod_version">CyanogenMod-Versioun</string>
   <string name="mod_version_default">Onbekannt</string>
+  <string name="device_model">Apparatmodell</string>
+  <string name="device_name">Apparatnumm</string>
   <string name="build_date">Build-Datum</string>
   <string name="contributor_cloud_title">Mataarbechter</string>
   <string name="phone_service_state">Stëmm: <xliff:g id="voice_state">%1$s</xliff:g>, Daten: <xliff:g id="data_state">%2$s</xliff:g></string>
@@ -225,6 +230,7 @@
   <string name="privacy_guard_reset_text">Berechtegungen zrécksetzen?</string>
   <string name="privacy_guard_help_text">Op dësem Schierm kanns du auswiele fir wéi eng Appen de Privatsphärschutz soll aktiv sinn andeem s du s\'einfach op de jeeweilegen Numm drécks. Ausgewielten Appe kënnen net op perséinlech Date wéi Kontakter, Messagen oder Uruffprotokoller zougräifen. Duerch laangt drécke kanns du fir all App méi Detailer opruffen.\n\nAgebauten Appe gi standardméisseg net ugewisen, mä kënnen ageblennt ginn andeem s du den dozougehéierege Menüpunkt auswiels.</string>
   <string name="privacy_guard_manager_show_system_apps">Integréiert Appen uweisen</string>
+  <string name="app_ops_btn_text">Änneren</string>
   <string name="increasing_ring_volume_option_title">Usteigend Schelltounlautstäerkt</string>
   <string name="increasing_ring_min_volume_title">Start-Lautstäerkt</string>
   <string name="increasing_ring_ramp_up_time_title">Ulafzäit</string>
@@ -290,7 +296,7 @@
   <string name="default_time">Normal</string>
   <string name="custom_time">Ugepasst</string>
   <string name="dialog_delete_title">Läschen</string>
-  <string name="dialog_delete_message">Ausgewieltent Element läschen?</string>
+  <string name="dialog_delete_message">Ausgewielt Element läschen?</string>
   <string name="pulse_length_always_on">Ëmmer un</string>
   <string name="pulse_length_very_short">Ganz kuerz</string>
   <string name="pulse_length_short">Kuerz</string>
@@ -547,7 +553,6 @@
   <string name="sim_pin_attempts">\nVersich iwwreg:</string>
   <string name="sim_pin_enabled">PIN1 aktivéiert</string>
   <string name="sim_pin_disabled">PIN1 desaktivéiert</string>
-  <string name="subs_settings">SIM-Kaarte-Status</string>
   <string name="storage_usb">USB-Späicher</string>
   <string name="storage_uicc">UICC-Späicher</string>
   <string name="sdcard_eject" product="default">SD-Kaart trennen</string>
@@ -555,6 +560,7 @@
   <string name="sd_card_format" product="default">SD-Kaart läschen</string>
   <string name="sd_card_format_summary" product="default">Läscht all d\'Daten op der SD-Kaart, wéi Musek a Fotoen</string>
   <string name="sdcard_mount" product="default">SD-Kaart abannen</string>
+  <string name="sdcard_insert_summary" product="default">SD-Kaart fir anzebannen asetzen</string>
   <string name="usb_eject" product="default">USB-Späicher trennen</string>
   <string name="usb_eject_summary" product="default">Den USB-Späicher trennen, fir datt e sécher kann erausgeholl ginn</string>
   <string name="usb_format" product="default">USB-Späicher läschen</string>
@@ -590,9 +596,13 @@
   <string name="sdcard_media_format_final_desc" product="default">D\'SD-Kaart eidelmaachen, an all d\'Fichieren déi drop gespäichert si läschen? Dës Aktioun kann net réckgängeg gemaach ginn!</string>
   <string name="usb_media_format_final_desc" product="default">Den USB-Späicher eidel maachen, an all d\'Fichieren déi drop gespäichert si läschen? Dës Aktioun kann net réckgängeg gemaach ginn!</string>
   <string name="uicc_media_format_final_desc" product="default">Den UICC-Späicher eidel maachen, an all d\'Fichieren déi drop gespäichert si läschen? Dës Aktioun kann net réckgängeg gemaach ginn!</string>
-  <string name="sdcard_media_format_gesture_explanation" product="default">Du muss däin Entspärmuster zeechne fir ze bestätegen dass du d\'SD-Kaart läsche wëlls.</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">Du muss däin Entspärmuster zeechne fir ze bestätegen datt s du d\'SD-Kaart läsche wëlls.</string>
   <string name="usb_media_format_gesture_explanation" product="default">Du muss däin Entspärmuster zeechne fir ze bestätegen datt du den USB-Späicher läsche wëlls.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">Du muss däin Entspärmuster zeechne fir ze bestätegen datt s du den UICC-Späicher läsche wëlls.</string>
+  <string name="internal_sd_format">Interne Mediespäicher läschen</string>
+  <string name="internal_sd_format_summary">Läscht all d\'Daten um interne Mediespäicher, wéi Musek a Fotoen</string>
+  <string name="erase_internal_storage">Interne Mediespäicher läschen</string>
+  <string name="erase_internal_storage_description">All d\'Daten um interne Mediespäicher, wéi Musek a Fotoen, läschen</string>
   <string name="storage_rescan_media">Späicher no Mediefichieren duerchsichen</string>
   <string name="location_category_enhanced_location">Erweidert Lokaliséierung (IZat)</string>
   <string name="app_ops_settings_summary">App-Berechtegungen ukucken oder änneren</string>
@@ -627,7 +637,7 @@
   <string name="power_notifications_enable_summary">En Toun ofspille wann eng Stroumquell ugeschloss oder getrennt gëtt</string>
   <string name="power_notifications_vibrate_title">Vibréieren</string>
   <string name="power_notifications_ringtone_title">Notifikatiounstoun</string>
-  <string name="power_notifications_ringtone_silent">Stëll</string>
+  <string name="power_notifications_ringtone_silent">Roueg</string>
   <string name="voice_wakeup_settings_title">Mat Stëmm waakreg maachen</string>
   <string name="voice_wakeup_retrain_title">Deng Stëmm nei trainéieren</string>
   <string name="voice_wakeup_activity_title">Aktivitéit déi soll lancéiert ginn</string>
@@ -657,7 +667,6 @@
   <string name="edge_gesture_service_summary">Keng Beréierungsgesten déi op der Navigatiouns- oder Statusläischt ausgefouert ginn un Appe schécken</string>
   <string name="cmlicense_title">Rechtlesch Hiwäiser iwwer CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Rechtlesch Hiwäiser iwwer CyanogenMod</string>
-  <string name="settings_cmlicense_activity_unreachable">Du hues keng Dateconnectioun. Fir dës Informatioun elo ze liesen, besich %s vun egal wéi engem Computer dee mam Internet verbonnen ass.</string>
   <string name="lockpattern_settings_enable_error_path_title">Musterfeeler uweisen</string>
   <string name="lockpattern_settings_enable_dots_title">Musterpunkten uweisen</string>
   <string name="unlock_quick_unlock_control_title">Séiert Entspären</string>
@@ -668,7 +677,7 @@
   <string name="notification_volume_option_title">Notifikatiounslautstäerkt</string>
   <string name="notification_drawer_title">Notifikatiounsläischt</string>
   <string name="quick_pulldown_title">Séiert Opmaachen</string>
-  <string name="quick_pulldown_summary">D\'Erofzéiere vun der Notifikatiounsleescht um %1$s Rand mécht déi séier Astellungen op</string>
+  <string name="quick_pulldown_summary">D\'Erofzéie vun der Notifikatiounsläischt um %1$se Rand mécht déi séier Astellungen op</string>
   <string name="quick_pulldown_summary_left">Lénks</string>
   <string name="quick_pulldown_summary_right">Riets</string>
   <string name="quick_pulldown_off">Aus</string>
@@ -707,6 +716,7 @@
   <string name="qs_main_tiles_summary_off">Dräi Kachelen an all Rei</string>
   <string name="qs_advanced_location_title">Erweidert Standuertastellungen</string>
   <string name="qs_advanced_location_summary">Erweidert Standuertastellungen an de séieren Astellungen aktivéieren</string>
+  <string name="sim_no_number_set">Keng Nummer zougewisen</string>
   <string name="gesture_settings_title">Gesten</string>
   <string name="themes_settings_title">Designen</string>
   <string name="wifi_mode">Modus</string>
@@ -738,6 +748,10 @@
   <string name="whisperpush_title">WhisperPush</string>
   <string name="whisperpush_summary">Astellunge fir sécher SMSen</string>
   <string name="navigation_ring_title">Ziler vun den Navigatiounsréng</string>
+  <string name="lcd_density">LCD-Opléisung</string>
+  <string name="dialog_title_lcd_density">LCD-Opléisung</string>
+  <string name="lcd_density_value_format">%d DPI</string>
+  <string name="lcd_density_default_value_format">%d DPI (Standard)</string>
   <string name="stylus_icon_enabled_title">Symbol uweise wann e Stëft benotzt gëtt</string>
   <string name="stylus_icon_enabled_summary">D\'Zeiger-Symbol uweise wann e Stëft benotzt gëtt</string>
   <string name="gestures_settings_title">Stëftgesten</string>
@@ -768,11 +782,11 @@
   <string name="category_interface">Interface</string>
   <string name="category_calibration">Kalibréierung</string>
   <string name="display_and_lights">Schierm a Beliichtung</string>
-  <string name="notification_manager">Notifikatiounsmanager</string>
   <string name="lockscreen_settings">Spärschierm</string>
   <string name="category_lights">Beliichtung</string>
-  <string name="power_usage_history_title">Akkunotzung</string>
+  <string name="power_usage_history_title">Akkubenotzung</string>
   <string name="sim_ringtone_title">SIM %d Schelltoun</string>
+  <string name="none_is_silent_title">Weckeren ni roueg schalten</string>
   <string name="live_display_mode">Schiermmodus</string>
   <string name="live_display_color_temperature_title">Faarftemperatur</string>
   <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K  Nuecht: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -784,4 +798,17 @@
   <string name="live_display_enhance_color_title">Faarwe verstäerken</string>
   <string name="battery_saver_threshold">Schwellewäert vum Akkuschouner</string>
   <string name="battery_saver_summary_unavailable">Beim Oplueden net disponibel</string>
+  <string name="anonymous_statistics_warning_title">Iwwer</string>
+  <string name="enable_reporting_title">Berichter aschalten</string>
+  <string name="preview_data_title">Virschau vun den Donnéeën</string>
+  <string name="view_stats_title">Statistike kucken</string>
+  <string name="anonymous_learn_more">Méi gewuer ginn</string>
+  <string name="preview_id_title">Eendeiteg ID</string>
+  <string name="preview_device_title">Apparat</string>
+  <string name="preview_version_title">Versioun</string>
+  <string name="preview_country_title">Land</string>
+  <string name="preview_carrier_title">Provider</string>
+  <string name="heads_up_notifications">Pop-Up-Notifikatiounen</string>
+  <string name="summary_heads_up_enabled">Pop-Up-Notifikatioune sinn aktivéiert</string>
+  <string name="summary_heads_up_disabled">Pop-Up-Notifikatioune sinn desaktivéiert</string>
 </resources>

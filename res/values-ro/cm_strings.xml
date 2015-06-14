@@ -170,7 +170,6 @@
   <string name="display_rotation_270_title">270 de grade</string>
   <string name="app_security_title">Securitate aplicație</string>
   <string name="sms_security_check_limit_title">Limită mesaj SMS</string>
-  <string name="sms_security_check_limit_summary">Aplicațiile pot trimite %d mesaje în 30 de minute înainte de fi necesară confirmarea</string>
   <string name="block_notifications_title">Filtru notificări</string>
   <string name="block_notifications_summary">Gestionaţi notificările ignorate şi filtrele</string>
   <string name="no_filters_title">Niciun filtru setat</string>
@@ -434,7 +433,6 @@
   <string name="sim_pin_disable_failed">Nu se poate dezactiva PIN.</string>
   <string name="sim_pin_enabled">PIN1 activat</string>
   <string name="sim_pin_disabled">PIN1 dezactivat</string>
-  <string name="subs_settings">Starea cartelei SIM</string>
   <string name="storage_usb">Stocare USB</string>
   <string name="usb_unmount_inform_text" product="default">Mediul de stocare USB va fi demontat.</string>
   <string name="usb_media_format_button_text" product="default">Șterge stocarea USB</string>
@@ -478,7 +476,6 @@
   <string name="edge_gesture_service_summary">Nu timite la aplicații gesturile de atingere la navigare și gesturile barei de stare</string>
   <string name="cmlicense_title">Juridic CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Juridic CyanogenMod</string>
-  <string name="settings_cmlicense_activity_unreachable">Nu aveți conexiune de date. Pentru a vizualiza acum această informație, mergeți la %s pe orice calculator conectat la internet.</string>
   <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
   <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce codul PIN/parola corectă</string>
   <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>

@@ -125,6 +125,8 @@
   <string name="volbtn_cursor_control_on_reverse">Volume omhoog/omlaag beweegt cursor naar rechts/links</string>
   <string name="swap_volume_buttons_title">Oriëntatie</string>
   <string name="swap_volume_buttons_summary">Volumeknoppen omdraaien indien het scherm gedraaid is</string>
+  <string name="volume_keys_control_ring_stream_title">Volumeknoppen passen beltoonvolume aan</string>
+  <string name="volume_keys_control_ring_stream_summary">Indien ingeschakeld, passen de volumeknoppen het beltoonvolume aan. Indien uitgeschakeld passen de volumeknoppen het mediavolume aan.</string>
   <string name="power_end_call_title">Gesprek beëindigen</string>
   <string name="power_end_call_summary">Huidige gesprek beëindigen door op de aan/uit-knop te drukken</string>
   <string name="button_wake_title">Apparaat ontwaken</string>
@@ -159,9 +161,14 @@
   <string name="sunlight_enhancement_summary">Helderheid van het scherm en leesbaarheid verbeteren bij fel zonlicht</string>
   <string name="color_enhancement_title">Kleurverbetering</string>
   <string name="color_enhancement_summary">Kleur van het display dynamisch verbeteren</string>
+  <string name="blacklist_title">Zwarte lijst</string>
+  <string name="blacklist_edit_dialog_title">Geblokkeerd telefoonnummer bewerken</string>
   <string name="blacklist_prefs">Instellingen</string>
   <string name="blacklist_button_delete">Verwijderen</string>
+  <string name="blacklist_empty_text">Geen telefoonnummers op de zwarte lijst. Voeg een nummer toe door op de \'Toevoegen\'-knop (+) te tikken.</string>
+  <string name="blacklist_disabled_empty_text">Om te voorkomen dat telefoonnummers u kunnen bereiken schakelt u de zwarte lijst in.</string>
   <string name="blacklist_summary_disabled">Uitgeschakeld</string>
+  <string name="blacklist_summary">U ontvangt geen inkomende oproepen of berichten van telefoonnummers op de zwarte lijst</string>
   <string name="blacklist_notify">Melding weergeven</string>
   <string name="blacklist_private_numbers_title">Afgeschermde nummers</string>
   <string name="blacklist_private_numbers_summary_disabled">Oproepen van afgeschermde nummers toestaan</string>
@@ -176,7 +183,9 @@
   <string name="blacklist_regex_summary">Gebruik . als joker en * voor herhaling. Bijv. 123.* blokkeert nummers beginnend met 123 en .*123.* blokkeert nummers die 123 bevatten</string>
   <string name="blacklist_policy_block_calls">Inkomende oproepen blokkeren</string>
   <string name="blacklist_policy_block_messages">Inkomende berichten blokkeren</string>
+  <string name="blacklist_bad_number_add">Kan geen ongeldig telefoonnummer toevoegen aan de zwarte lijst</string>
   <string name="remove_blacklist_number_title">Telefoonnummer verwijderen</string>
+  <string name="remove_blacklist_entry">Weet u zeker dat u dit geblokkeerde telefoonnummer wilt verwijderen?</string>
   <string name="select_contact">Contact selecteren</string>
   <string name="lockpattern_reset_button">Patroon opnieuw instellen</string>
   <string name="lockpattern_settings_reset_summary">Voer primair e-mailadres en bijbehorende wachtwoord in om patroon opnieuw in te stellen</string>
@@ -200,7 +209,6 @@
   <string name="display_rotation_270_title">270 graden</string>
   <string name="app_security_title">App-beveiliging</string>
   <string name="sms_security_check_limit_title">Limiet sms-berichten</string>
-  <string name="sms_security_check_limit_summary">Apps kunnen %d berichten verzenden in 30 minuten zonder bevestiging</string>
   <string name="spam_added_title">Toegevoegd %1$s</string>
   <string name="spam_last_blocked_title">Laatst geblokkeerd %1$s</string>
   <string name="block_notifications_title">Meldingen filteren</string>
@@ -213,6 +221,8 @@
   <string name="update_recovery_off_warning">Let op: als deze functie is uitgeschakeld, wordt uw recovery niet bijgewerkt bij systeemupdates.\n\nToekomstige systeemupdates kunnen wellicht niet geïnstalleerd worden op oude recovery-versies.\n\nWeet u zeker dat u deze functie wilt uitschakelen?</string>
   <string name="mod_version">CyanogenMod-versie</string>
   <string name="mod_version_default">Onbekend</string>
+  <string name="device_model">Model</string>
+  <string name="device_name">Apparaatnaam</string>
   <string name="build_date">Build-datum</string>
   <string name="contributor_cloud_title">Bijdragers</string>
   <string name="phone_service_state">Spraak: <xliff:g id="voice_state">%1$s</xliff:g>, gegevens: <xliff:g id="data_state">%2$s</xliff:g></string>
@@ -231,6 +241,7 @@
   <string name="privacy_guard_reset_text">Machtigingen opnieuw instellen?</string>
   <string name="privacy_guard_help_text">Op dit scherm kunt u kiezen voor welke apps Privacybescherming ingeschakeld moet zijn door op ze te tikken. Geselecteerde apps zullen geen toegang hebben tot persoonsgegevens zoals contacten, berichten of gespreksstatistieken. Door een app lang aan te raken opent het info-scherm voor die app.\n\nIngebouwde apps worden standaard niet getoond, maar kunnen getoond worden door de desbetreffende optie in het menu te selecteren.</string>
   <string name="privacy_guard_manager_show_system_apps">Ingebouwde apps tonen</string>
+  <string name="app_ops_btn_text">Wijzigen</string>
   <string name="increasing_ring_volume_option_title">In volume toenemende beltoon</string>
   <string name="increasing_ring_min_volume_title">Startvolume</string>
   <string name="increasing_ring_ramp_up_time_title">Ophoogtijd</string>
@@ -239,7 +250,7 @@
   <string name="enable_adb_cm">Android-foutopsporing</string>
   <string name="enable_adb_summary_cm">Android Debug Bridge (adb)-interface inschakelen</string>
   <string name="adb_over_network">ADB over netwerk</string>
-  <string name="adb_over_network_summary">TCP/IP-foutopsporing inschakelen over netwerkinterfaces (wifi, USB-netwerken). Wordt hersteld bij opstarten</string>
+  <string name="adb_over_network_summary">TCP/IP-foutopsporing inschakelen over netwerkinterfaces (wifi, USB-netwerken). Wordt gereset bij opstarten</string>
   <string name="adb_over_network_warning">Let op: als ADB over netwerk is ingeschakeld, kan op uw apparaat worden ingebroken via alle aangesloten netwerken!\n\nGebruik deze functie alleen indien u verbonden bent met vertrouwde netwerken.\n\nWeet u zeker dat u deze functie wilt inschakelen?</string>
   <string name="adb_notify">Melding foutopsporing</string>
   <string name="adb_notify_summary">Melden wanneer USB- of netwerkfoutopsporing is ingeschakeld</string>
@@ -292,10 +303,6 @@
   <string name="status_bar_battery_percentage_default">Verborgen</string>
   <string name="status_bar_battery_percentage_text_inside">In het pictogram</string>
   <string name="status_bar_battery_percentage_text_next">Naast het pictogram</string>
-  <string name="status_bar_show_unused_sims_title">Lege SIM-pictogrammen tonen</string>
-  <string name="status_bar_show_unused_sims_title_summary_off">Pictogrammen van ongebruikte SIM-sleuven verbergen</string>
-  <string name="status_bar_show_unused_sims_title_summary_on">Ongebruikte SIM-sleuven aangeven</string>
-  <string name="sim_name_hint">SIM-naam invoeren</string>
   <string name="edit_light_settings">Meldingsledinstellingen</string>
   <string name="pulse_speed_title">Duur en snelheid van knipperen</string>
   <string name="default_time">Normaal</string>
@@ -562,7 +569,6 @@
   <string name="sim_pin_attempts">\nResterende pogingen:</string>
   <string name="sim_pin_enabled">PIN1 ingeschakeld</string>
   <string name="sim_pin_disabled">PIN1 uitgeschakeld</string>
-  <string name="subs_settings">Simkaartstatus</string>
   <string name="storage_usb">USB-opslag</string>
   <string name="storage_uicc">UICC-opslag</string>
   <string name="sdcard_eject" product="default">SD-kaart ontkoppelen</string>
@@ -639,6 +645,7 @@
   <string name="usb_charging_summary">Hiermee schakelt u alle gegevensoverdracht uit met de computer en laadt het apparaat via de USB-poort</string>
   <string name="usb_sdcard_title">Massaopslag (UMS)</string>
   <string name="usb_sdcard_summary">Bestanden uitwisselen tussen uw computer en SD-kaart door het aan te koppelen als flash-geheugen</string>
+  <string name="usb_not_connected">USB-verbinding is nu verbroken</string>
   <string name="external_storage_turn_on">Externe opslag is ingeschakeld</string>
   <string name="external_storage_turn_off">Externe opslag is uitgeschakeld</string>
   <string name="stats_collection_title">Verzamelen van statistieken</string>
@@ -678,7 +685,6 @@
   <string name="edge_gesture_service_summary">Aanraakgebaren voor navigatie- en statusbalk niet naar apps sturen</string>
   <string name="cmlicense_title">Juridische afdeling van CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Juridische afdeling van CyanogenMod</string>
-  <string name="settings_cmlicense_activity_unreachable">Geen netwerkverbinding. Ga naar %s om deze informatie te bekijken op een computer met internet.</string>
   <string name="lockpattern_settings_enable_error_path_title">Patroonfout weergeven</string>
   <string name="lockpattern_settings_enable_dots_title">Patroonknoppen weergeven</string>
   <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
@@ -723,11 +729,15 @@
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">Schermtime-out</string>
   <string name="qs_tile_usb_tether">USB-tethering</string>
+  <string name="qs_tile_heads_up">Heads-up</string>
+  <string name="qs_tile_ambient_display">Omgevingsdisplay</string>
+  <string name="qs_tile_sync">Synchroniseren</string>
   <string name="qs_main_tiles_title">Eerste rij vergroten</string>
   <string name="qs_main_tiles_summary_on">Twee hoofdtegels op de eerste rij</string>
   <string name="qs_main_tiles_summary_off">Drie tegels op elke rij</string>
   <string name="qs_advanced_location_title">Geavanceerde locatie-instellingen</string>
   <string name="qs_advanced_location_summary">Geavanceerde instellingen voor locatie in Snelle instellingen</string>
+  <string name="sim_no_number_set">Geen nummer toegewezen</string>
   <string name="gesture_settings_title">Gebaren</string>
   <string name="themes_settings_title">Thema\'s</string>
   <string name="wifi_mode">Modus</string>
@@ -761,6 +771,11 @@
   <string name="whisperpush_summary">Instellingen beveiligde sms-berichten</string>
   <string name="navigation_ring_title">Snelkoppelingposities</string>
   <string name="navigation_ring_message">Tik op het bewerkingspictogram om de navigatiering te openen en te bewerken.\n\nSelecteer een snelkoppeling om in te stellen.\n\nTik op het \'\u2713\'-pictogram om uw wijzigingen op te slaan of \'Herstel standaard\' om de standaardinstellingen te herstellen.</string>
+  <string name="lcd_density">LCD-dichtheid</string>
+  <string name="dialog_title_lcd_density">LCD-dichtheid</string>
+  <string name="lcd_density_value_format">%d DPI</string>
+  <string name="lcd_density_default_value_format">%d DPI (standaard)</string>
+  <string name="restarting_ui">Gebruikersomgeving herstarten\u2026</string>
   <string name="stylus_icon_enabled_title">Pictogram bij stylusgebruik</string>
   <string name="stylus_icon_enabled_summary">Cursor tonen als een stylus wordt gebruikt</string>
   <string name="gestures_settings_title">Stylusgebaren</string>
@@ -792,7 +807,7 @@
   <string name="category_interface">Uiterlijk</string>
   <string name="category_calibration">Kalibratie</string>
   <string name="display_and_lights">Scherm &amp; verlichting</string>
-  <string name="notification_manager">Meldingenbeheer</string>
+  <string name="notification_manager">Meldingen</string>
   <string name="lockscreen_settings">Vergrendelingsscherm</string>
   <string name="category_lights">Verlichting</string>
   <string name="power_usage_history_title">Accugebruik</string>
@@ -801,6 +816,9 @@
   <string name="sim_ringtone_title">Beltoon voor SIM %d</string>
   <string name="interruptions_ignore_while_media_title">Stabiel mediavolume</string>
   <string name="interruptions_ignore_while_media_summary">Mediavolume niet verminderen bij meldingen</string>
+  <string name="none_is_silent_title">Nooit alarmen dempen</string>
+  <string name="none_is_silent_summary">Altijd alarmen laten horen in Stille modus</string>
+  <string name="allow_lights_title">Meldingsled toestaan</string>
   <string name="live_display_summary">Uw scherm optimaliseren aan de hand van tijdstip op de dag en lichtomstandigheden om de leesbaarheid te verbeteren en oogvermoeidheid te verminderen</string>
   <string name="live_display_mode">Weergavemodus</string>
   <string name="live_display_color_temperature_title">Kleurtemperatuur</string>
@@ -830,4 +848,15 @@
   <string name="preview_version_title">Versie</string>
   <string name="preview_country_title">Land</string>
   <string name="preview_carrier_title">Provider</string>
+  <string name="heads_up_notifications">Heads-up</string>
+  <string name="summary_heads_up_enabled">Zwevende meldingen ingeschakeld</string>
+  <string name="summary_heads_up_disabled">Zwevende meldingen uitgeschakeld</string>
+  <string name="master_clear_desc_cm" product="tablet">Dit zal alle gegevens wissen van de <b>interne opslag</b> van uw tablet, inclusief:\n\n<li>Uw accounts</li>\n<li>Systeem- en app-gegevens en instellingen</li>\n<li>Gedownloade apps</li></string>
+  <string name="master_clear_desc_cm" product="default">Dit zal alle gegevens wissen van de <b>interne opslag</b> van uw telefoon, inclusief:\n\n<li>Uw accounts</li>\n<li>Systeem- en app-gegevens en instellingen</li>\n<li>Gedownloade apps</li></string>
+  <string name="lock_to_cyanogen_title">Apparaatbeveiliging</string>
+  <string name="lock_to_cyanogen_summary">Uw Cyanogen OS-accountwachtwoord vereisen, zelfs na een herstel naar fabrieksinstellingen</string>
+  <string name="lock_to_cyanogen_create_account_msg">Uw apparaat gebruikt het wachtwoord van uw Cyanogen OS-account om zich te beschermen, zelfs wanneer de fabrieksinstellingen hersteld zijn. U dient hiervoor een Cyanogen OS-account aan te maken.</string>
+  <string name="lock_to_cyanogen_disable_msg">Door deze functie uit te schakelen kunnen onbevoegde gebruikers uw telefoon herstellen naar fabrieksinstellingen wanneer deze gestolen is. Uw persoonlijke gegevens zijn mogelijk niet beschermd. Wilt u deze functie toch uitschakelen?</string>
+  <string name="lock_to_cyanogen_master_clear_warning">Apparaatbeveiliging is ingeschakeld. Schakel dit uit als u door wilt gaan met het opnieuw instellen van uw apparaat.</string>
+  <string name="bluetooth_pan_profile_summary_use_for_error">Verbindingsfout; is Bluetooth-tethering ingeschakeld op dit apparaat?</string>
 </resources>

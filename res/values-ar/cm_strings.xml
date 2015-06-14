@@ -155,7 +155,6 @@
   <string name="display_rotation_270_title">270 درجة</string>
   <string name="app_security_title">أمن التطبيق</string>
   <string name="sms_security_check_limit_title">حد رسالة SMS</string>
-  <string name="sms_security_check_limit_summary">تطبيقات يمكن إرسال رسائل %d في 30 دقيقة قبل المطالبة بتأكيد</string>
   <string name="block_notifications_title">تصفية شريط الإعلام</string>
   <string name="block_notifications_summary">إدارة اﻹشعارات التي تم تجاهلها والمرشحات</string>
   <string name="cmupdate_settings_title">تحديثات CyanogenMod</string>
@@ -384,7 +383,6 @@
   <string name="edge_gesture_service_summary">عدم إرسال أحداث اللمس للتنقل و إيماءات شريط الحالة لتطبيقات</string>
   <string name="cmlicense_title">قانون CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">قانون CyanogenMod</string>
-  <string name="settings_cmlicense_activity_unreachable">لم يكن لديك اتصال بيانات. لعرض هذه المعلومات الآن، انتقل إلى %s من أي جهاز كمبيوتر متصل بالإنترنت.</string>
   <string name="unlock_quick_unlock_control_title">فتح سريع</string>
   <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
   <string name="unlock_scramble_pin_layout_title">تخطيط التدافع</string>

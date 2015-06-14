@@ -115,6 +115,7 @@
     <!-- Profiles - system settings -->
     <string name="profile_system_settings_title">System settings</string>
     <string name="profile_lockmode_title">Lock screen mode</string>
+    <string name="profile_lockmode_policy_disabled_summary">This profile option is disabled by a device administrator policy</string>
     <string name="profile_lockmode_insecure_summary">Don\'t ask for PIN or password</string>
     <string name="profile_lockmode_disabled_summary">Disable lock screen</string>
     <string name="profile_airplanemode_title">Airplane mode</string>
@@ -211,14 +212,14 @@
     <string name="color_enhancement_summary">Dynamically enhance the color of the display</string>
 
     <!-- Blacklist preferences -->
-    <string name="blacklist_title">Blacklist</string>
-    <string name="blacklist_edit_dialog_title">Edit blacklist entry</string>
+    <string name="blacklist_title">Blocked caller list</string>
+    <string name="blacklist_edit_dialog_title">Edit blocked phone number</string>
     <string name="blacklist_prefs">Settings</string>
     <string name="blacklist_button_delete">Delete</string>
-    <string name="blacklist_empty_text">You don\'t have any blacklisted numbers. Add an entry by touching the Add (+) button.</string>
-    <string name="blacklist_disabled_empty_text">To blacklist calls and/or messages from certain numbers, enable the blacklist.</string>
+    <string name="blacklist_empty_text">You don\'t have any blocked numbers. Add an entry by touching the Add (+) button.</string>
+    <string name="blacklist_disabled_empty_text">To prevent phone numbers from calling or messaging you, enable the blocked caller list.</string>
     <string name="blacklist_summary_disabled">Disabled</string>
-    <string name="blacklist_summary">Incoming calls and messages from phone numbers in the blacklist will be blocked</string>
+    <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
     <string name="blacklist_notify">Show notification</string>
     <string name="blacklist_private_numbers_title">Private numbers</string>
     <string name="blacklist_private_numbers_summary_disabled">Don\'t block calls from private numbers</string>
@@ -233,11 +234,11 @@
     <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
     <string name="blacklist_policy_block_calls">Block incoming calls</string>
     <string name="blacklist_policy_block_messages">Block incoming messages</string>
-    <string name="blacklist_bad_number_add">Unable to add invalid number to blacklist</string>
+    <string name="blacklist_bad_number_add">Unable to add invalid phone number to blocked caller list</string>
 
     <!-- Blacklist management -->
     <string name="remove_blacklist_number_title">Remove number</string>
-    <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
+    <string name="remove_blacklist_entry">Do you want to remove this blocked phone number?</string>
     <string name="select_contact">Select contact</string>
 
     <!-- Protected apps lockpattern reset button -->
@@ -267,10 +268,12 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
-    <!--- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="app_security_title">App security</string>
     <string name="sms_security_check_limit_title">SMS message limit</string>
-    <string name="sms_security_check_limit_summary">Apps can send %d messages in 30 minutes before requiring confirmation</string>
+    <string name="sms_security_check_limit_summary">Apps can send %d messages in 1 minute before requiring confirmation</string>
+    <string name="sms_security_check_limit_summary_none">Apps are not allowed to send any messages without confirmation</string>
+    <string name="sms_security_check_limit_none">None</string>
 
     <string name="spam_added_title">Added %1$s</string>
     <string name="spam_last_blocked_title">Last blocked %1$s</string>
@@ -291,8 +294,10 @@
     <string name="mod_version">CyanogenMod version</string>
     <string name="mod_version_default">Unknown</string>
 
-    <!-- About phone screen, model name -->
-    <string name="model_name">Model name</string>
+    <!-- About phone screen, Device model -->
+    <string name="device_model">Device model</string>
+    <!-- About phone screen, Device name -->
+    <string name="device_name">Device name</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -424,11 +429,6 @@
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-
-    <!-- Status bar - MSIM tweaks-->
-    <string name="status_bar_show_unused_sims_title">Show empty SIM icons</string>
-    <string name="status_bar_show_unused_sims_title_summary_off">Hide icons of unused SIM slots</string>
-    <string name="status_bar_show_unused_sims_title_summary_on">Indicate unused SIM slots</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
@@ -786,9 +786,7 @@
     <!-- SIM card lock settings screen, toast displayed on PIN1 disable: -->
     <string name="sim_pin_disabled">PIN1 disabled</string>
 
-    <string name="subs_settings">SIM card status</string>
-
-    <!-- string resources for SD card, USB OTG & UICC features -->
+    <!-- string resources for USB OTG & UICC features -->
     <string name="storage_usb">USB storage</string>
     <string name="storage_uicc">UICC storage</string>
     <string name="sdcard_eject" product="default">Unmount SD card</string>
@@ -893,6 +891,7 @@
 
     <string name="usb_sdcard_title">Mass storage (UMS)</string>
     <string name="usb_sdcard_summary">Lets you transfer files between your computer and SD card by mounting it as a flash device</string>
+    <string name="usb_not_connected">USB is now disconnected</string>
 
     <string name="external_storage_turn_on">External storage has been turned on</string>
     <string name="external_storage_turn_off">External storage has been turned off</string>
@@ -1044,7 +1043,8 @@
     <string name="qs_tile_screen_timeout">Screen timeout</string>
     <string name="qs_tile_usb_tether">USB tethering</string>
     <string name="qs_tile_heads_up">Heads up</string>
-    <string name="qs_ambient_display">Ambient Display</string>
+    <string name="qs_tile_ambient_display">Ambient display</string>
+    <string name="qs_tile_sync">Sync</string>
 
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
@@ -1156,7 +1156,7 @@
     <string name="category_interface">Interface</string>
     <string name="category_calibration">Calibration</string>
     <string name="display_and_lights">Display &amp; lights</string>
-    <string name="notification_manager">Notification manager</string>
+    <string name="notification_manager">Notifications</string>
     <string name="lockscreen_settings">Lock screen</string>
     <string name="category_lights">Lights</string>
     <string name="power_usage_history_title">Battery usage</string>
@@ -1169,7 +1169,7 @@
 
     <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
     <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
-    <string name="none_is_silent_title">None is Silent mode</string>
+    <string name="none_is_silent_title">Never mute alarms</string>
     <string name="none_is_silent_summary">Silent mode always sounds alarms</string>
     <string name="allow_lights_title">Allow notification lights</string>
 
@@ -1217,4 +1217,37 @@
     <string name="heads_up_notifications">Heads up</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc_cm" product="tablet">This will erase all data from your tablet\'s <b>internal storage</b>, including:\n\n<li>Your device accounts</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li></string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc_cm" product="default">This will erase all data from your phone\'s <b>internal storage</b>, including:\n\n<li>Your device accounts</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li></string>
+
+    <!-- Killswitch -->
+    <string name="lock_to_cyanogen_title">Device Protection</string>
+    <string name="lock_to_cyanogen_summary">Require your Cyanogen OS account password even after a factory reset</string>
+    <string name="lock_to_cyanogen_create_account_msg">Your device uses the Cyanogen OS account password to protect your device even in the event of a factory reset. You will need to create a Cyanogen OS account.</string>
+    <string name="lock_to_cyanogen_disable_msg">Disabling this feature will allow unauthorized users to reset your phone to factory defaults if it is stolen. Your personal data may not be protected. Do you want to disable this feature?</string>
+    <string name="lock_to_cyanogen_master_clear_warning">Device Protection is enabled. Please disable to continue resetting your device.</string>
+
+    <string name="bluetooth_pan_profile_summary_use_for_error">Connection error; is Bluetooth tethering enabled on this device?</string>
+
+    <!-- MSIM SIM status -->
+    <string name="sim_card_status_title">SIM %d status</string>
+    <string name="sim_card_lock_settings_title">SIM %d lock settings</string>
+    <string name="sim_card_summary_empty">SIM not inserted</string>
+    <string name="sim_mobile_network_settings_category_title">Mobile network settings</string>
+    <string name="sim_mobile_network_settings_title">SIM %d settings</string>
+
+    <!-- Factory reset strings -->
+    <string name="factory_reset_instructions_title">Personal data &amp; apps</string>
+    <string name="factory_reset_instructions_summary">This will erase all your accounts, apps, app data, and system settings on this device</string>
+    <string name="factory_reset_personal_content">Personal content</string>
+    <string name="factory_reset_erase_stored_content">Erase stored content</string>
+    <string name="factory_reset_erase_stored_content_summary">Erase music, photos, videos, and other user data stored on this device</string>
+    <string name="factory_reset_erase_stored_content_summary_forced">Erase music, photos, videos, and other user data stored on this device. \n\n<b>Content cannot be saved due to device encryption.</b></string>
+    <string name="factory_reset_erase_sd_card">Format SD card</string>
+    <string name="factory_reset_erase_sd_card_summary">Erase all data on the SD card, including music and photos</string>
+    <string name="factory_reset_warning_text_reset_now">RESET NOW</string>
+    <string name="factory_reset_warning_text_message">All your accounts, apps, app data, and system settings will be removed from this device. This cannot be reversed.</string>
 </resources>

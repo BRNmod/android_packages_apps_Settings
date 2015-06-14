@@ -170,10 +170,6 @@
     <item>Lescht 30 Deeg</item>
     <item>Benotzungszyklus definéieren...</item>
   </string-array>
-  <string-array name="sim_card_data_range">
-    <item>Lescht 4 Zifferen</item>
-    <item>4 éischt Zifferen</item>
-  </string-array>
   <string-array name="wifi_frequency_band_entries">
     <item>Automatesch</item>
     <item>just 5 GHz</item>
@@ -381,9 +377,9 @@
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item>25%</item>
-    <item>50%</item>
-    <item>75%</item>
-    <item>100%</item>
+    <item>50 %</item>
+    <item>75 %</item>
+    <item>100 %</item>
   </string-array>
   <string-array name="captioning_preset_selector_titles">
     <item>Standardwäerter benotzen</item>

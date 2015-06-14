@@ -191,7 +191,6 @@
   <string name="display_rotation_270_title">270 graos</string>
   <string name="app_security_title">Seguridá n\'aplicaciones</string>
   <string name="sms_security_check_limit_title">Llende de mensaxes SMS</string>
-  <string name="sms_security_check_limit_summary">Les aplicaciones puen unviar hasta %d mensaxes SMS en 30 minutos enantes de riquir confirmación</string>
   <string name="spam_added_title">Amestáu %1$s</string>
   <string name="spam_last_blocked_title">Cabera bloquiada %1$s</string>
   <string name="block_notifications_title">Filtriar notificaciones</string>
@@ -529,7 +528,6 @@ Calca pa empareyar el preséu Bluetooth enantes de configurar los disparadores.<
   <string name="sim_pin_attempts">\nIntentos restantes:</string>
   <string name="sim_pin_enabled">PIN1 activáu</string>
   <string name="sim_pin_disabled">PIN1 desactiváu</string>
-  <string name="subs_settings">Estáu de tarxeta SIM</string>
   <string name="storage_usb">Almacenamientu USB</string>
   <string name="storage_uicc">Almacenamientu UICC</string>
   <string name="usb_eject" product="default">Desmontar almacenamientu USB</string>
@@ -624,7 +622,6 @@ Calca pa empareyar el preséu Bluetooth enantes de configurar los disparadores.<
   <string name="edge_gesture_service_summary">Nun unviar a les aplicaciones eventos táctiles de la barra d\'estáu y de navegación</string>
   <string name="cmlicense_title">Llicencia CyanogenMod</string>
   <string name="settings_cmlicense_activity_title">Llicencia CyanogenMod</string>
-  <string name="settings_cmlicense_activity_unreachable">Nun hai una conexón de datos disponible. Pa ver esta información agora, introduz la direición %s en cualquier ordenador con accesu a Internet.</string>
   <string name="unlock_quick_unlock_control_title">Desbloquéu rápidu</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquiar automáticamente cuando s\'introduz el PIN/clave correutu</string>
   <string name="unlock_scramble_pin_layout_title">Disposición al debalu</string>

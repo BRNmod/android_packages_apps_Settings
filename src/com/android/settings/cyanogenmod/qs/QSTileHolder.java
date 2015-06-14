@@ -155,7 +155,11 @@ public class QSTileHolder {
                 break;
             case QSConstants.TILE_AMBIENT_DISPLAY:
                 resourceName = "ic_qs_ambientdisplay_on";
-                stringId = R.string.qs_ambient_display;
+                stringId = R.string.qs_tile_ambient_display;
+                break;
+            case QSConstants.TILE_SYNC:
+                resourceName = "ic_qs_sync_on";
+                stringId = R.string.qs_tile_sync;
                 break;
             default:
                 return null;
