@@ -77,6 +77,11 @@
         android:summary="@string/nsd_quick_toggle_summary"
         android:persistent="false" />
 
+    <com.android.settings.cyanogenmod.GlobalSettingSwitchPreference
+        android:key="captive_portal_detection_enabled"
+        android:title="@string/captive_portal"
+        android:persistent="true" />
+
     <PreferenceScreen
         android:fragment="com.android.settings.ProxySelector"
         android:key="proxy_settings"

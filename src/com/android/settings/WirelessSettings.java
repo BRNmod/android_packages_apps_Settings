@@ -70,6 +70,7 @@ public class WirelessSettings extends SettingsPreferenceFragment
     private static final String KEY_ANDROID_BEAM_SETTINGS = "android_beam_settings";
     private static final String KEY_VPN_SETTINGS = "vpn_settings";
     private static final String KEY_TETHER_SETTINGS = "tether_settings";
+    private static final String KEY_CAPTIVE_PORTAL = "captive_portal_detection_enabled";
     private static final String KEY_PROXY_SETTINGS = "proxy_settings";
     private static final String KEY_MOBILE_NETWORK_SETTINGS = "mobile_network_settings";
     private static final String KEY_MANAGE_MOBILE_PLAN = "manage_mobile_plan";
