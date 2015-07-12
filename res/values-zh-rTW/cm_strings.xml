@@ -196,7 +196,7 @@
   <string name="block_notifications_title">篩選通知</string>
   <string name="block_notifications_summary">管理已忽略的通知與篩選器</string>
   <string name="no_filters_title">沒有過濾設定</string>
-  <string name="cmupdate_settings_title">CyanogenMod 更新</string>
+  
   <string name="update_recovery_title">更新 Cyanogen Recovery</string>
   <string name="update_recovery_summary">以系統更新來更新 Recovery</string>
   <string name="update_recovery_on_warning">注意: 啟用此功能後，您已安裝的 Recovery 將會被現在所運行之系統所包含的取代。\n\n您的 Recovery 將會隨著系統一起更新以確保與未來版本的相容性。\n\n您確定要啟用這個功能?</string>
@@ -603,8 +603,8 @@
   <string name="graphics_title">圖像和繪製</string>
   <string name="edge_gesture_service_title">攔截手勢觸控事件</string>
   <string name="edge_gesture_service_summary">不向應用程式傳送導覽列與狀態列手勢的觸控事件</string>
-  <string name="cmlicense_title">CyanogenMod 法律條款</string>
-  <string name="settings_cmlicense_activity_title">CyanogenMod 法律條款</string>
+  
+  
   <string name="unlock_quick_unlock_control_title">快速解鎖</string>
   <string name="unlock_quick_unlock_control_summary">當正確的 PIN 碼/密碼被輸入時自動解鎖</string>
   <string name="unlock_scramble_pin_layout_title">亂序布局</string>

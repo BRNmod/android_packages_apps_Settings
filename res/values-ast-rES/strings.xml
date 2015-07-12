@@ -1374,7 +1374,7 @@ Pues cifrar les cuentes, los axustes, les aplicaciones descargaes y datos, fiche
   <string name="user_dict_settings_context_menu_delete_title">Desaniciar</string>
   <string name="user_dict_settings_empty_text">Nun tienes nenguna pallabra nel diccionariu del usuariu. Toca\'l botón Amestar (+) p\'amestar una pallabra.</string>
   <string name="user_dict_settings_all_languages">Pa toles llingües</string>
-  <string name="user_dict_settings_more_languages">Más llingües&#8230;</string>
+  <string name="user_dict_settings_more_languages">Más llingües…</string>
   <string name="testing">Prueba</string>
   <string name="testing_phone_info" product="tablet">Información de la tablet</string>
   <string name="testing_phone_info" product="default">Información tocante al teléfonu</string>

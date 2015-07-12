@@ -157,7 +157,7 @@
   <string name="sms_security_check_limit_title">حد رسالة SMS</string>
   <string name="block_notifications_title">تصفية شريط الإعلام</string>
   <string name="block_notifications_summary">إدارة اﻹشعارات التي تم تجاهلها والمرشحات</string>
-  <string name="cmupdate_settings_title">تحديثات CyanogenMod</string>
+  
   <string name="mod_version">إصدار CyanogenMod</string>
   <string name="mod_version_default">غير معروف</string>
   <string name="build_date">تاريخ الإصدار</string>
@@ -381,8 +381,8 @@
   <string name="graphics_title">الرسومات والأداء</string>
   <string name="edge_gesture_service_title">منع إيمائة الأحداث اللمسية</string>
   <string name="edge_gesture_service_summary">عدم إرسال أحداث اللمس للتنقل و إيماءات شريط الحالة لتطبيقات</string>
-  <string name="cmlicense_title">قانون CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">قانون CyanogenMod</string>
+  
+  
   <string name="unlock_quick_unlock_control_title">فتح سريع</string>
   <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
   <string name="unlock_scramble_pin_layout_title">تخطيط التدافع</string>

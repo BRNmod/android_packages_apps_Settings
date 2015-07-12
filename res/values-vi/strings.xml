@@ -13,9 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="4676390750360727396">"Có"</string>
     <string name="no" msgid="6731231425810196216">"Không"</string>
     <string name="create" msgid="3578857613172647409">"Tạo"</string>
@@ -143,7 +141,7 @@
     <string name="bluetooth_disconnected" msgid="6557104142667339895">"Đã ngắt kết nối"</string>
     <string name="bluetooth_disconnecting" msgid="8913264760027764974">"Đang ngắt kết nối…"</string>
     <string name="bluetooth_connecting" msgid="8555009514614320497">"Đang kết nối…"</string>
-    <string name="bluetooth_unknown" msgid="644716244548801421"></string>
+    <string name="bluetooth_unknown" msgid="644716244548801421"/>
     <string name="bluetooth_pairing" msgid="1426882272690346242">"Đang ghép nối…"</string>
     <string name="bluetooth_device" msgid="5291950341750186887">"Thiết bị Bluetooth chưa được đặt tên"</string>
     <string name="progress_scanning" msgid="192587958424295789">"Đang tìm kiếm"</string>
@@ -183,7 +181,7 @@
     <string name="display_preview_label" msgid="1127597250917274792">"Xem trước:"</string>
     <string name="display_font_size_label" msgid="8941851418397475389">"Kích thước phông chữ:"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">"Gửi <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
     <string name="intent_sender_action_label" msgid="616458370005452389">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"Bắt đầu <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
@@ -335,7 +333,7 @@
     <string name="owner_info_settings_title" msgid="2723190010708381889">"Thông tin chủ sở hữu"</string>
     <string name="security_enable_widgets_title" msgid="2754833397070967846">"Bật tiện ích con"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="1557090442377855233">"Bị tắt bởi quản trị viên"</string>
-    <string name="owner_info_settings_summary" msgid="3800834657847339570"></string>
+    <string name="owner_info_settings_summary" msgid="3800834657847339570"/>
     <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">"Nhập văn bản để hiển thị trên màn hình khóa"</string>
     <string name="show_user_info_on_lockscreen_label" msgid="8408914624925608365">"Hiển thị thông tin người dùng trên màn hình khóa"</string>
     <string name="user_info_settings_title" msgid="1195015434996724736">"Thông tin người dùng"</string>
@@ -388,7 +386,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">"Chọn phương thức khóa màn hình"</string>
     <string name="unlock_backup_info_summary" msgid="108524727803788172">"Khi Mở khóa bằng khuôn mặt không thể nhìn thấy bạn, bạn muốn mở khóa bằng cách nào?"</string>
     <string name="unlock_set_unlock_off_title" msgid="7117155352183088342">"Không"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"></string>
+    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"/>
     <string name="unlock_set_unlock_none_title" msgid="5679243878975864640">"Vuốt"</string>
     <string name="unlock_set_unlock_none_summary" msgid="8914673583104628191">"Không có bảo mật"</string>
     <string name="unlock_set_unlock_biometric_weak_title" msgid="2227215291604628670">"Mở khóa bằng khuôn mặt"</string>
@@ -484,7 +482,7 @@
     <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"GHÉP NỐI"</string>
     <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"Hủy"</string>
     <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"Ghép nối giúp bạn có thể truy cập danh bạ và nhật ký cuộc gọi của mình khi được kết nối."</string>
-    <string name="bluetooth_error_title" msgid="6850384073923533096"></string>
+    <string name="bluetooth_error_title" msgid="6850384073923533096"/>
     <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"Không thể ghép nối với <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"Không thể ghép nối với <xliff:g id="DEVICE_NAME">%1$s</xliff:g> do mã PIN hoặc mã xác nhận không đúng."</string>
     <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"Không thể kết nối với <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
@@ -754,7 +752,7 @@
     <string name="home_settings" msgid="212375129455718176">"Trang chủ"</string>
     <string name="display_settings_title" msgid="1708697328627382561">"Hiển thị"</string>
     <string name="sound_settings" msgid="5534671337768745343">"Âm thanh"</string>
-    <string name="ringtone_summary" msgid="2630023412632683493"></string>
+    <string name="ringtone_summary" msgid="2630023412632683493"/>
     <string name="all_volume_title" msgid="4296957391257836961">"Âm lượng"</string>
     <string name="musicfx_title" msgid="3415566786340790345">"Hiệu ứng âm nhạc"</string>
     <string name="ring_volume_title" msgid="7938706566797464165">"Âm lượng chuông"</string>
@@ -873,7 +871,7 @@
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Trạng thái của máy tính bảng"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Trạng thái điện thoại"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"Bản cập nhật hệ thống"</string>
-    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
+    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"/>
     <string name="firmware_version" msgid="4801135784886859972">"Phiên bản của Android"</string>
     <string name="model_number" msgid="3765737700545384794">"Số kiểu"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"ID thiết bị"</string>
@@ -932,8 +930,8 @@
     <string name="sd_insert_summary" product="default" msgid="2048640010381803841">"Lắp thẻ SD để gắn"</string>
     <string name="sd_mount" product="nosdcard" msgid="8966695015677343116">"Kết nối bộ nhớ USB"</string>
     <string name="sd_mount" product="default" msgid="5940523765187704135">"Lắp thẻ SD"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"></string>
-    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"></string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"/>
+    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"/>
     <string name="sd_format" product="nosdcard" msgid="2148179271623099054">"Xóa bộ nhớ USB"</string>
     <string name="sd_format" product="default" msgid="2576054280507119870">"Xóa thẻ SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6331905044907914603">"Xóa tất cả dữ liệu trên bộ nhớ trong USB, chẳng hạn như nhạc và ảnh"</string>
@@ -945,8 +943,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="3634502237262534381">"Tháo thẻ SD?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="4322636662873269018">"Nếu bạn ngắt kết nối bộ lưu trữ USB, một số ứng dụng bạn đang sử dụng sẽ ngừng và có thể không khả dụng cho tới khi bạn kết nối lại bộ lưu trữ USB."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="6998379994779187692">"Nếu bạn tháo thẻ SD, một số ứng dụng bạn đang sử dụng sẽ ngừng và có thể không khả dụng cho tới khi bạn lắp lại thẻ SD."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"></string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"/>
+    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="4346280469528260684">"Không thể ngắt kết nối bộ lưu trữ USB. Hãy thử lại sau."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="3073562815631781894">"Không thể tháo thẻ SD. Vui lòng thử lại sau."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="7120241136790744265">"Bộ nhớ USB sẽ được ngắt kết nối."</string>
@@ -999,7 +997,7 @@
     <string name="menu_new" msgid="3014205883303921729">"APN mới"</string>
     <string name="menu_save" msgid="8109345640668285399">"Lưu"</string>
     <string name="menu_cancel" msgid="2194502410474697474">"Hủy"</string>
-    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_title" msgid="7631322303341024692"/>
     <string name="error_name_empty" msgid="8418502878620394756">"Không được để trống trường Tên."</string>
     <string name="error_apn_empty" msgid="6056233831214537267">"APN không được để trống."</string>
     <string name="error_mcc_not3" msgid="4560171714156251661">"Trường MCC phải có 3 chữ số."</string>
@@ -1252,7 +1250,7 @@
     <string name="clear_data_dlg_text" msgid="8847257251846779938">"Tất cả dữ liệu của ứng dụng này sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, cài đặt, tài khoản, cơ sở dữ liệu, v.v."</string>
     <string name="dlg_ok" msgid="2402639055725653590">"OK"</string>
     <string name="dlg_cancel" msgid="1674753358972975911">"Hủy"</string>
-    <string name="app_not_found_dlg_title" msgid="3127123411738434964"></string>
+    <string name="app_not_found_dlg_title" msgid="3127123411738434964"/>
     <string name="app_not_found_dlg_text" msgid="8333723538280257243">"Không tìm thấy ứng dụng trong danh sách các ứng dụng đã cài đặt."</string>
     <string name="clear_data_failed" msgid="1907582169616856698">"Không thể xóa dữ liệu ứng dụng."</string>
     <string name="app_factory_reset_dlg_title" msgid="7441012826373143593">"Gỡ cài đặt bản cập nhật"</string>
@@ -1286,7 +1284,7 @@
     <string name="system_package" msgid="6222593098063037137">"Không thể cài đặt bản cập nhật hệ thống trên phương tiện bên ngoài."</string>
     <string name="force_stop_dlg_title" msgid="977530651470711366">"Buộc dừng?"</string>
     <string name="force_stop_dlg_text" msgid="7208364204467835578">"Nếu bạn buộc dừng một ứng dụng, ứng dụng đó có thể hoạt động sai."</string>
-    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"></string>
+    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"/>
     <string name="move_app_failed_dlg_text" msgid="3465267182923054022">"Không thể di chuyển ứng dụng. <xliff:g id="REASON">%1$s</xliff:g>"</string>
     <string name="app_install_location_title" msgid="2068975150026852168">"Vị trí cài đặt ưa thích"</string>
     <string name="app_install_location_summary" msgid="5155453752692959098">"Thay đổi vị trí cài đặt ưa thích cho ứng dụng mới"</string>
@@ -1308,12 +1306,12 @@
     <string name="no_running_services" msgid="2059536495597645347">"Không có dịch vụ nào chạy."</string>
     <string name="service_started_by_app" msgid="818675099014723551">"Được khởi động bằng ứng dụng."</string>
     <!-- no translation found for service_client_name (4037193625611815517) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="6844156253576174488">"<xliff:g id="MEMORY">%1$s</xliff:g> trống"</string>
     <string name="service_foreground_processes" msgid="7583975676795574276">"<xliff:g id="MEMORY">%1$s</xliff:g> đã sử dụng"</string>
     <string name="memory" msgid="6609961111091483458">"RAM"</string>
     <!-- no translation found for service_process_name (4098932168654826656) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="3129887865552025943">"Người dùng: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="8250168004291472959">"Người dùng đã xóa"</string>
     <string name="running_processes_item_description_s_s" msgid="5790575965282023145">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> quá trình và <xliff:g id="NUMSERVICES">%2$d</xliff:g> dịch vụ"</string>
@@ -1349,7 +1347,7 @@
     <string name="language_settings_category" msgid="2288258489940617043">"Cài đặt ngôn ngữ"</string>
     <string name="keyboard_settings_category" msgid="8275523930352487827">"Bàn phím &amp; phương thức nhập"</string>
     <string name="phone_language" msgid="8870144109924299673">"Ngôn ngữ"</string>
-    <string name="phone_language_summary" msgid="3871309445655554211"></string>
+    <string name="phone_language_summary" msgid="3871309445655554211"/>
     <string name="auto_replace" msgid="6199184757891937822">"Tự động thay thế"</string>
     <string name="auto_replace_summary" msgid="370288728200084466">"Sửa từ bị đánh sai"</string>
     <string name="auto_caps" msgid="6379232078052591265">"Tự động viết hoa"</string>
@@ -1374,7 +1372,7 @@
     <string name="keyboard_layout_default_label" msgid="2952672513543482165">"Mặc định"</string>
     <string name="keyboard_layout_picker_title" msgid="556081931972771610">"Bố cục bàn phím"</string>
     <string name="user_dict_settings_title" msgid="3427169369758733521">"Từ điển cá nhân"</string>
-    <string name="user_dict_settings_summary" msgid="7965571192902870454"></string>
+    <string name="user_dict_settings_summary" msgid="7965571192902870454"/>
     <string name="user_dict_settings_add_menu_title" msgid="4056762757149923551">"Thêm"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="4702613990174126482">"Thêm vào từ điển"</string>
     <string name="user_dict_settings_add_screen_title" msgid="742580720124344291">"Cụm từ"</string>
@@ -1623,7 +1621,7 @@
     <string name="battery_stats_wake_lock_label" msgid="1908942681902324095">"Không khóa màn hình"</string>
     <string name="battery_stats_phone_signal_label" msgid="3537569115723850618">"Tín hiệu mạng di động"</string>
     <!-- no translation found for battery_stats_last_duration (1535831453827905957) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="387122265874485088">"Thời gian thức của thiết bị"</string>
     <string name="wifi_on_time" msgid="3208518458663637035">"Thời gian bật Wi-Fi"</string>
     <string name="bluetooth_on_time" msgid="3056108148042308690">"Thời gian bật Wi‑Fi"</string>
@@ -1823,7 +1821,7 @@
     <string name="credential_storage_type_software" msgid="4403117271207715378">"Chỉ phần mềm"</string>
     <string name="credentials_settings_not_available" msgid="7968275634486624215">"Không có thông tin đăng nhập cho người dùng này"</string>
     <string name="credentials_install_gesture_explanation" msgid="7408921172253634829">"Bạn cần vẽ hình mở khóa của mình để xác nhận cài đặt thông tin xác thực."</string>
-    <string name="credentials_unlock" msgid="385427939577366499"></string>
+    <string name="credentials_unlock" msgid="385427939577366499"/>
     <string name="credentials_unlock_hint" msgid="2301301378040499348">"Nhập mật khẩu cho vùng lưu trữ thông tin xác thực."</string>
     <string name="credentials_old_password" msgid="7553393815538684028">"Mật khẩu hiện tại:"</string>
     <string name="credentials_reset_hint" msgid="6297256880896133631">"Xóa tất cả nội dung?"</string>
@@ -1859,7 +1857,7 @@
     <string name="local_backup_password_toast_success" msgid="582016086228434290">"Nhóm mật khẩu dự phòng mới"</string>
     <string name="local_backup_password_toast_confirmation_mismatch" msgid="3495167398824569524">"Mật khẩu mới và xác nhận không khớp"</string>
     <string name="local_backup_password_toast_validation_failure" msgid="5646377234895626531">"Đặt mật khẩu dự phòng không thành công"</string>
-    <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
+    <string name="backup_erase_dialog_title" msgid="1027640829482174106"/>
     <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Dừng sao lưu mật khẩu Wi-Fi, dấu trang, các cài đặt khác và dữ liệu ứng dụng của bạn đồng thời xóa tất cả bản sao trên các máy chủ Google?"</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"Quản lý thiết bị"</string>
     <string name="active_device_admin_msg" msgid="6930903262612422111">"Quản trị viên thiết bị"</string>
@@ -1954,7 +1952,7 @@
     <string name="remove_account_failed" msgid="4010643669489606536">"Quản trị viên của bạn không cho phép thực hiện thay đổi này"</string>
     <string name="provider_label" msgid="7724593781904508866">"Đăng ký dịch vụ Push"</string>
     <!-- no translation found for sync_item_title (4782834606909853006) -->
-    <skip />
+    <skip/>
     <string name="cant_sync_dialog_title" msgid="8923508322291625282">"Không thể đồng bộ hóa theo cách thủ công"</string>
     <string name="cant_sync_dialog_message" msgid="1938380442159016449">"Đồng bộ hóa cho mục này hiện đã bị vô hiệu hóa. Để thay đổi cài đặt này, hãy tạm thời bật dữ liệu nền và đồng bộ hóa tự động."</string>
     <string name="wimax_settings" msgid="2655139497028469039">"4G"</string>
@@ -2270,7 +2268,7 @@
     <string name="call_manager_enable_summary" msgid="8458447798019519240">"Cho phép dịch vụ này quản lý cách thực hiện cuộc gọi của bạn."</string>
     <string name="call_manager_title" msgid="4479949569744516457">"Trình quản lý cuộc gọi"</string>
     <!-- no translation found for call_manager_summary (5918261959486952674) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="2451014351355183338">"Phát sóng trong tình huống khẩn cấp"</string>
     <string name="network_operators_settings" msgid="2583178259504630435">"Nhà cung cấp dịch vụ mạng"</string>
     <string name="access_point_names" msgid="1381602020438634481">"Tên điểm truy cập"</string>
@@ -2301,7 +2299,7 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"Chụp ảnh"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Chọn ảnh từ Thư viện"</string>
     <string name="user_image_photo_selector" msgid="5492565707299454873">"Chọn ảnh"</string>
-    <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+    <string name="regulatory_info_text" msgid="5623087902354026557"/>
     <string name="sim_setup_wizard_title" msgid="1732682852692274928">"Thẻ SIM"</string>
     <string name="sim_settings_title" msgid="6822745211458959756">"Thẻ SIM"</string>
     <string name="sim_settings_summary" msgid="4050372057097516088">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>

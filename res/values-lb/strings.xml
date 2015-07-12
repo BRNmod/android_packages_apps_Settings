@@ -1359,7 +1359,7 @@ Fir d\'Performance ze verbesseren an de Späicherverbrauch ze reduzéiere stinn 
   <string name="user_dict_settings_context_menu_delete_title">Läschen</string>
   <string name="user_dict_settings_empty_text">Du hues keng Wierder am Benotzerdictionnaire. Setz e Wuert dobäi andeem s du de Plus (+)-Knäppchen drécks.</string>
   <string name="user_dict_settings_all_languages">Fir all d\'Sproochen</string>
-  <string name="user_dict_settings_more_languages">Méi Sproochen&#8230;</string>
+  <string name="user_dict_settings_more_languages">Méi Sproochen…</string>
   <string name="testing">Testen</string>
   <string name="testing_phone_info" product="tablet">Tabletsinformatioun</string>
   <string name="testing_phone_info" product="default">Telefonsinformatioun</string>

@@ -13,9 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="4676390750360727396">"हां"</string>
     <string name="no" msgid="6731231425810196216">"नहीं"</string>
     <string name="create" msgid="3578857613172647409">"बनाएं"</string>
@@ -143,7 +141,7 @@
     <string name="bluetooth_disconnected" msgid="6557104142667339895">"डिस्कनेक्‍ट किया गया"</string>
     <string name="bluetooth_disconnecting" msgid="8913264760027764974">"डिस्‍कनेक्‍ट हो रहा है..."</string>
     <string name="bluetooth_connecting" msgid="8555009514614320497">"कनेक्ट हो रहा है..."</string>
-    <string name="bluetooth_unknown" msgid="644716244548801421"></string>
+    <string name="bluetooth_unknown" msgid="644716244548801421"/>
     <string name="bluetooth_pairing" msgid="1426882272690346242">"युग्‍मित कर रहा है…"</string>
     <string name="bluetooth_device" msgid="5291950341750186887">"अनामित ब्लूटूथ डिवाइस"</string>
     <string name="progress_scanning" msgid="192587958424295789">"खोजना"</string>
@@ -183,7 +181,7 @@
     <string name="display_preview_label" msgid="1127597250917274792">"पूर्वावलोकन:"</string>
     <string name="display_font_size_label" msgid="8941851418397475389">"अक्षरों का आकार:"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">"<xliff:g id="BROADCAST">broadcast</xliff:g> भेजें"</string>
     <string name="intent_sender_action_label" msgid="616458370005452389">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"<xliff:g id="ACTIVITY">activity</xliff:g> प्रारंभ करें"</string>
@@ -335,7 +333,7 @@
     <string name="owner_info_settings_title" msgid="2723190010708381889">"अपनी जानकारी"</string>
     <string name="security_enable_widgets_title" msgid="2754833397070967846">"शॉर्टकट सक्षम करें"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="1557090442377855233">"व्यवस्थापक के द्वारा अक्षम किया गया"</string>
-    <string name="owner_info_settings_summary" msgid="3800834657847339570"></string>
+    <string name="owner_info_settings_summary" msgid="3800834657847339570"/>
     <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">"लॉक स्‍क्रीन पर दिखाई देने के लिए जानकारी लिखें"</string>
     <string name="show_user_info_on_lockscreen_label" msgid="8408914624925608365">"लॉक स्क्रीन पर उपयोगकर्ता जानकारी दिखाएं"</string>
     <string name="user_info_settings_title" msgid="1195015434996724736">"उपयोगकर्ता जानकारी"</string>
@@ -388,7 +386,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">"स्‍क्रीन को लॉक करने की विधि चुनें"</string>
     <string name="unlock_backup_info_summary" msgid="108524727803788172">"जब फेस अनलॉक आपको नहीं देख पा रहा हो, तो आप कैसे अनलॉक करना चाहेंगे?"</string>
     <string name="unlock_set_unlock_off_title" msgid="7117155352183088342">"कोई नहीं"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"></string>
+    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"/>
     <string name="unlock_set_unlock_none_title" msgid="5679243878975864640">"स्वाइप करें"</string>
     <string name="unlock_set_unlock_none_summary" msgid="8914673583104628191">"कोई सुरक्षा नहीं"</string>
     <string name="unlock_set_unlock_biometric_weak_title" msgid="2227215291604628670">"फेस अनलॉक"</string>
@@ -484,7 +482,7 @@
     <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"युग्‍मित करें"</string>
     <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"रहने दें"</string>
     <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"कनेक्ट रहने पर, पेयरिंग आपको अपने संपर्कों और कॉल इतिहास की एक्सेस प्रदान करता है."</string>
-    <string name="bluetooth_error_title" msgid="6850384073923533096"></string>
+    <string name="bluetooth_error_title" msgid="6850384073923533096"/>
     <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> के साथ युग्‍मित नहीं हो सका."</string>
     <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"गलत पिन या पासकी के कारण <xliff:g id="DEVICE_NAME">%1$s</xliff:g> के साथ युग्‍मित नहीं हो सका."</string>
     <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> से संचार नहीं कर सकता."</string>
@@ -754,7 +752,7 @@
     <string name="home_settings" msgid="212375129455718176">"होम"</string>
     <string name="display_settings_title" msgid="1708697328627382561">"स्क्रीन सेटिंग देखें"</string>
     <string name="sound_settings" msgid="5534671337768745343">"ध्वनि"</string>
-    <string name="ringtone_summary" msgid="2630023412632683493"></string>
+    <string name="ringtone_summary" msgid="2630023412632683493"/>
     <string name="all_volume_title" msgid="4296957391257836961">"आवाज़"</string>
     <string name="musicfx_title" msgid="3415566786340790345">"संगीत प्रभाव"</string>
     <string name="ring_volume_title" msgid="7938706566797464165">"रिंगर वॉल्‍यूम"</string>
@@ -873,7 +871,7 @@
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"टेबलेट स्‍थिति"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"फ़ोन स्‍थिति"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"सिस्‍टम के बारे में नई जानकारी"</string>
-    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
+    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"/>
     <string name="firmware_version" msgid="4801135784886859972">"Android वर्शन"</string>
     <string name="model_number" msgid="3765737700545384794">"मॉडल नंबर"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"डिवाइस आईडी"</string>
@@ -932,8 +930,8 @@
     <string name="sd_insert_summary" product="default" msgid="2048640010381803841">"माउंट करने के लिए कोई SD कार्ड लगाएं"</string>
     <string name="sd_mount" product="nosdcard" msgid="8966695015677343116">"USB मेमोरी माउंट करें"</string>
     <string name="sd_mount" product="default" msgid="5940523765187704135">"SD कार्ड माउंट करें"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"></string>
-    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"></string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"/>
+    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"/>
     <string name="sd_format" product="nosdcard" msgid="2148179271623099054">"USB मेमोरी मिटाएं"</string>
     <string name="sd_format" product="default" msgid="2576054280507119870">"SD कार्ड मिटाएं"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6331905044907914603">"आंतरिक USB मेमोरी का सभी डेटा मिटाता है, जैसे संगीत और फ़ोटो"</string>
@@ -945,8 +943,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="3634502237262534381">"SD कार्ड को अनमाउंट करें?"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="4322636662873269018">"यदि आप USB मेमोरी को अनमाउंट करते हैं, तो आपके द्वारा उपयोग किए जा रहे कुछ ऐप्स बंद हो जाएंगे और जब तक आप USB मेमोरी को पुन: माउंट नहीं करते, तब तक अनुपलब्‍ध रह सकते हैं."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="6998379994779187692">"यदि आप SD कार्ड अनमाउंट करते हैं, तो आपके द्वारा उपयोग किए जा रहे कुछ ऐप्स बंद हो जाएंगे और जब तक आप SD कार्ड को पुन: माउंट नहीं करते, तब तक अनुपलब्‍ध रह सकते हैं."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"></string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"/>
+    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="4346280469528260684">"USB मेमोरी को अनमाउंट नहीं किया जा सका. बाद में पुन: प्रयास करें."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="3073562815631781894">"SD कार्ड को अनमाउंट नहीं किया जा सका. बाद में पुन: प्रयास करें."</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="7120241136790744265">"USB मेमोरी अनमाउंट किया जाएगा."</string>
@@ -999,7 +997,7 @@
     <string name="menu_new" msgid="3014205883303921729">"नया APN"</string>
     <string name="menu_save" msgid="8109345640668285399">"जोड़ें"</string>
     <string name="menu_cancel" msgid="2194502410474697474">"अभी नहीं"</string>
-    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_title" msgid="7631322303341024692"/>
     <string name="error_name_empty" msgid="8418502878620394756">"नाम फ़ील्‍ड खाली मत छोड़िए."</string>
     <string name="error_apn_empty" msgid="6056233831214537267">"APN खाली नहीं हो सकता."</string>
     <string name="error_mcc_not3" msgid="4560171714156251661">"MCC फ़ील्‍ड में 3 अंक होने चाहिए."</string>
@@ -1252,7 +1250,7 @@
     <string name="clear_data_dlg_text" msgid="8847257251846779938">"इस ऐप्स का सभी डेटा स्‍थायी रूप से हटा दिया जाएगा. इसमें सभी फ़ाइलें, सेटिंग, खाते, डेटाबेस आदि शामिल हैं."</string>
     <string name="dlg_ok" msgid="2402639055725653590">"ठीक है"</string>
     <string name="dlg_cancel" msgid="1674753358972975911">"रहने दें"</string>
-    <string name="app_not_found_dlg_title" msgid="3127123411738434964"></string>
+    <string name="app_not_found_dlg_title" msgid="3127123411738434964"/>
     <string name="app_not_found_dlg_text" msgid="8333723538280257243">"इंस्‍टॉल किए गए ऐप्स की सूची में ऐप्स नहीं मिला."</string>
     <string name="clear_data_failed" msgid="1907582169616856698">"ऐप्स डेटा साफ़ नहीं कर सका."</string>
     <string name="app_factory_reset_dlg_title" msgid="7441012826373143593">"नई जानकारी हटाएं?"</string>
@@ -1286,7 +1284,7 @@
     <string name="system_package" msgid="6222593098063037137">"सिस्‍टम के बारे में नई जानकारी बाहरी मीडिया से नहीं हटाया जा सकता."</string>
     <string name="force_stop_dlg_title" msgid="977530651470711366">"बलपूर्वक रोकें?"</string>
     <string name="force_stop_dlg_text" msgid="7208364204467835578">"यदि आप किसी ऐप्स को बलपूर्वक रोकते हैं, तो यह गलत व्यवहार कर सकता है."</string>
-    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"></string>
+    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"/>
     <string name="move_app_failed_dlg_text" msgid="3465267182923054022">"ऐप्स  नहीं ले जाया जा सका. <xliff:g id="REASON">%1$s</xliff:g>"</string>
     <string name="app_install_location_title" msgid="2068975150026852168">"पसंदीदा इंस्‍टॉल स्‍थान"</string>
     <string name="app_install_location_summary" msgid="5155453752692959098">"नए ऐप्स के लिए पसंदीदा इंस्‍टॉलेशन स्‍थान बदलें"</string>
@@ -1308,12 +1306,12 @@
     <string name="no_running_services" msgid="2059536495597645347">"कुछ नहीं चल रहा है."</string>
     <string name="service_started_by_app" msgid="818675099014723551">"ऐप्स द्वारा प्रारंभ किया गया."</string>
     <!-- no translation found for service_client_name (4037193625611815517) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="6844156253576174488">"<xliff:g id="MEMORY">%1$s</xliff:g> खाली"</string>
     <string name="service_foreground_processes" msgid="7583975676795574276">"<xliff:g id="MEMORY">%1$s</xliff:g> उपयोग किया गया"</string>
     <string name="memory" msgid="6609961111091483458">"RAM"</string>
     <!-- no translation found for service_process_name (4098932168654826656) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="3129887865552025943">"उपयोगकर्ता: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="8250168004291472959">"निकाला गया उपयोगकर्ता"</string>
     <string name="running_processes_item_description_s_s" msgid="5790575965282023145">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> प्रक्रिया और <xliff:g id="NUMSERVICES">%2$d</xliff:g> सेवा"</string>
@@ -1349,7 +1347,7 @@
     <string name="language_settings_category" msgid="2288258489940617043">"भाषा सेटिंग"</string>
     <string name="keyboard_settings_category" msgid="8275523930352487827">"कीबोर्ड और इनपुट पद्धति"</string>
     <string name="phone_language" msgid="8870144109924299673">"भाषा"</string>
-    <string name="phone_language_summary" msgid="3871309445655554211"></string>
+    <string name="phone_language_summary" msgid="3871309445655554211"/>
     <string name="auto_replace" msgid="6199184757891937822">"स्‍वत: प्रतिस्‍थापन"</string>
     <string name="auto_replace_summary" msgid="370288728200084466">"गलत लिखे गए शब्‍दों को सही करें"</string>
     <string name="auto_caps" msgid="6379232078052591265">"स्‍वत: अक्षर बड़े करना"</string>
@@ -1374,7 +1372,7 @@
     <string name="keyboard_layout_default_label" msgid="2952672513543482165">"सामान्य"</string>
     <string name="keyboard_layout_picker_title" msgid="556081931972771610">"कीबोर्ड लेआउट"</string>
     <string name="user_dict_settings_title" msgid="3427169369758733521">"निजी शब्दकोश"</string>
-    <string name="user_dict_settings_summary" msgid="7965571192902870454"></string>
+    <string name="user_dict_settings_summary" msgid="7965571192902870454"/>
     <string name="user_dict_settings_add_menu_title" msgid="4056762757149923551">"जोड़ें"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="4702613990174126482">"शब्‍दकोश में जोड़ें"</string>
     <string name="user_dict_settings_add_screen_title" msgid="742580720124344291">"वाक्यांश"</string>
@@ -1623,7 +1621,7 @@
     <string name="battery_stats_wake_lock_label" msgid="1908942681902324095">"सचेत"</string>
     <string name="battery_stats_phone_signal_label" msgid="3537569115723850618">"सेल्युलर नेटवर्क सिग्नल"</string>
     <!-- no translation found for battery_stats_last_duration (1535831453827905957) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="387122265874485088">"डिवाइस सक्रियण समय"</string>
     <string name="wifi_on_time" msgid="3208518458663637035">"वाई-फ़ाई  चालू होने से अब तक का समय"</string>
     <string name="bluetooth_on_time" msgid="3056108148042308690">"वाई-फ़ाई  चालू होने से अब तक का समय"</string>
@@ -1823,7 +1821,7 @@
     <string name="credential_storage_type_software" msgid="4403117271207715378">"केवल सॉफ़्टवेयर"</string>
     <string name="credentials_settings_not_available" msgid="7968275634486624215">"इस उपयोगकर्ता के लिए प्रमाणिकता उपलब्ध नहीं हैं"</string>
     <string name="credentials_install_gesture_explanation" msgid="7408921172253634829">"आपको प्रमाणिकता इंस्‍टॉलेशन की पुष्टि करने के लिए अपना अनलॉक आकार बनाना होगा."</string>
-    <string name="credentials_unlock" msgid="385427939577366499"></string>
+    <string name="credentials_unlock" msgid="385427939577366499"/>
     <string name="credentials_unlock_hint" msgid="2301301378040499348">"प्रमाणिकता मेमोरी के लिए पासवर्ड लिखें."</string>
     <string name="credentials_old_password" msgid="7553393815538684028">"वर्तमान पासवर्ड:"</string>
     <string name="credentials_reset_hint" msgid="6297256880896133631">"सभी सामग्री निकालें?"</string>
@@ -1859,7 +1857,7 @@
     <string name="local_backup_password_toast_success" msgid="582016086228434290">"नया सुरक्षित पासवर्ड सेट किया गया"</string>
     <string name="local_backup_password_toast_confirmation_mismatch" msgid="3495167398824569524">"नया पासवर्ड तथा पुष्टि का मिलान नहीं होता है"</string>
     <string name="local_backup_password_toast_validation_failure" msgid="5646377234895626531">"सुरक्षित पासवर्ड सेट करने में विफल रहा"</string>
-    <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
+    <string name="backup_erase_dialog_title" msgid="1027640829482174106"/>
     <string name="backup_erase_dialog_message" msgid="5221011285568343155">"अपने वाई-फ़ाई  पासवर्ड, बुकमार्क, अन्य सेटिंग और ऐप्स डेटा को सुरक्षित रखें, साथ ही Google सर्वर से सभी प्रतियां मिटाएं?"</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"डिवाइस की व्‍यवस्‍थापन सेटिंग"</string>
     <string name="active_device_admin_msg" msgid="6930903262612422111">"डिवाइस नियंत्रक"</string>
@@ -1954,7 +1952,7 @@
     <string name="remove_account_failed" msgid="4010643669489606536">"यह बदलाव आपके व्यवस्थापक द्वारा अनुमत नहीं है"</string>
     <string name="provider_label" msgid="7724593781904508866">"पुश सदस्यता"</string>
     <!-- no translation found for sync_item_title (4782834606909853006) -->
-    <skip />
+    <skip/>
     <string name="cant_sync_dialog_title" msgid="8923508322291625282">"मैन्युअल रूप से समन्वयित नहीं कर सकता"</string>
     <string name="cant_sync_dialog_message" msgid="1938380442159016449">"इस आइटम के लिए समन्वयन वर्तमान में अक्षम है. यह सेटिंग बदलने के लिए, पृष्ठभूमि डेटा और स्वचालित समन्वयन को अस्थायी रूप से चालू करें."</string>
     <string name="wimax_settings" msgid="2655139497028469039">"4G"</string>
@@ -2270,7 +2268,7 @@
     <string name="call_manager_enable_summary" msgid="8458447798019519240">"इस सेवा को कॉल करने का आपका तरीका प्रबंधित करने दें."</string>
     <string name="call_manager_title" msgid="4479949569744516457">"कॉल प्रबंधक"</string>
     <!-- no translation found for call_manager_summary (5918261959486952674) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="2451014351355183338">"आपातकालीन प्रसारण"</string>
     <string name="network_operators_settings" msgid="2583178259504630435">"नेटवर्क ऑपरेटर"</string>
     <string name="access_point_names" msgid="1381602020438634481">"एक्सेस पॉइंट नाम"</string>
@@ -2301,7 +2299,7 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"फ़ोटो लें"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"गैलरी से फ़ोटो चुनें"</string>
     <string name="user_image_photo_selector" msgid="5492565707299454873">"फ़ोटो चुनें"</string>
-    <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+    <string name="regulatory_info_text" msgid="5623087902354026557"/>
     <string name="sim_setup_wizard_title" msgid="1732682852692274928">"सिम कार्ड"</string>
     <string name="sim_settings_title" msgid="6822745211458959756">"सिम कार्ड"</string>
     <string name="sim_settings_summary" msgid="4050372057097516088">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>

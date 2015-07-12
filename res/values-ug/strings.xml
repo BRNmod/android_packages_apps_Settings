@@ -1208,7 +1208,7 @@
   <string name="user_dict_settings_context_menu_delete_title">ئۆچۈر</string>
   <string name="user_dict_settings_empty_text">ئىشلەتكۈچى لۇغىتىڭىزدە ھېچقانداق سۆز يوق. قوش  (+)توپچىنى بېسىپ لۇغەتكە سۆز قوشالايسىز. </string>
   <string name="user_dict_settings_all_languages">ھەممە تىل ئۈچۈن</string>
-  <string name="user_dict_settings_more_languages">تېخىمۇ كۆپ تىللار&#8230;</string>
+  <string name="user_dict_settings_more_languages">تېخىمۇ كۆپ تىللار…</string>
   <string name="testing">سىناۋاتىدۇ</string>
   <string name="testing_phone_info" product="tablet">تاختا كومپيۇتېر ئۇچۇرى</string>
   <string name="testing_phone_info" product="default">تېلېفون ئۇچۇرى</string>

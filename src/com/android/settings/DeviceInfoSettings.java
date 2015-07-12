@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2015 BRNmod
  * Copyright (C) 2008 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -64,7 +65,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String LOG_TAG = "DeviceInfoSettings";
     private static final String FILENAME_PROC_VERSION = "/proc/version";
     private static final String FILENAME_MSV = "/sys/board_properties/soc/msv";
-    private static final String PROPERTY_CMLICENSE_URL = "ro.cmlegal.url";
+    private static final String PROPERTY_BRNLICENSE_URL = "ro.cmlegal.url";
 
     private static final String KEY_CONTAINER = "container";
     private static final String KEY_REGULATORY_INFO = "regulatory_info";
@@ -89,8 +90,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
-    private static final String KEY_CM_UPDATES = "cm_updates";
-    private static final String KEY_CM_LICENSE = "cmlicense";
+    private static final String KEY_BRN_UPDATES = "updates";
+    private static final String KEY_BRN_LICENSE = "brnlicense";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -138,9 +139,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         // Only the owner should see the Updater settings, if it exists
         if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
-            removePreferenceIfPackageNotInstalled(findPreference(KEY_CM_UPDATES));
+            removePreferenceIfPackageNotInstalled(findPreference(KEY_BRN_UPDATES));
         } else {
-            getPreferenceScreen().removePreference(findPreference(KEY_CM_UPDATES));
+            getPreferenceScreen().removePreference(findPreference(KEY_BRN_UPDATES));
         }
 
         // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
@@ -295,11 +296,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                     Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
                 }
             }
-        } else if (preference.getKey().equals(KEY_CM_LICENSE)) {
-            String userCMLicenseUrl = SystemProperties.get(PROPERTY_CMLICENSE_URL);
+        } else if (preference.getKey().equals(KEY_BRN_LICENSE)) {
+            String userBRNLicenseUrl = SystemProperties.get(PROPERTY_BRNLICENSE_URL);
             final Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_DEFAULT);
-            intent.setData(Uri.parse(userCMLicenseUrl));
+            intent.setData(Uri.parse(userBRNLicenseUrl));
             try {
                 startActivity(intent);
             } catch (Exception e) {

@@ -13,9 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="4676390750360727396">"はい"</string>
     <string name="no" msgid="6731231425810196216">"いいえ"</string>
     <string name="create" msgid="3578857613172647409">"作成"</string>
@@ -99,7 +97,7 @@
     <string name="battery_info_status_not_charging" msgid="2820070506621483576">"充電していません"</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for battery_info_status_full (2824614753861462808) -->
-    <skip />
+    <skip/>
     <string name="battery_info_power_unplugged" msgid="5987246575519551081">"電池使用時間:"</string>
     <string name="battery_info_power_ac" msgid="6808516193001604634">"AC"</string>
     <string name="battery_info_power_usb" msgid="8012931702516331797">"USB"</string>
@@ -145,7 +143,7 @@
     <string name="bluetooth_disconnected" msgid="6557104142667339895">"切断"</string>
     <string name="bluetooth_disconnecting" msgid="8913264760027764974">"切断中..."</string>
     <string name="bluetooth_connecting" msgid="8555009514614320497">"接続中..."</string>
-    <string name="bluetooth_unknown" msgid="644716244548801421"></string>
+    <string name="bluetooth_unknown" msgid="644716244548801421"/>
     <string name="bluetooth_pairing" msgid="1426882272690346242">"ペアとして設定中..."</string>
     <string name="bluetooth_device" msgid="5291950341750186887">"名前のないBluetoothデバイス"</string>
     <string name="progress_scanning" msgid="192587958424295789">"検索中"</string>
@@ -185,7 +183,7 @@
     <string name="display_preview_label" msgid="1127597250917274792">"プレビュー:"</string>
     <string name="display_font_size_label" msgid="8941851418397475389">"フォントサイズ:"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
-    <skip />
+    <skip/>
     <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">"<xliff:g id="BROADCAST">broadcast</xliff:g>を送信"</string>
     <string name="intent_sender_action_label" msgid="616458370005452389">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
     <string name="intent_sender_startactivity_text" msgid="5080516029580421895">"<xliff:g id="ACTIVITY">activity</xliff:g>を開始"</string>
@@ -337,7 +335,7 @@
     <string name="owner_info_settings_title" msgid="2723190010708381889">"所有者情報"</string>
     <string name="security_enable_widgets_title" msgid="2754833397070967846">"ウィジェットの有効化"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="1557090442377855233">"管理者によって無効にされています"</string>
-    <string name="owner_info_settings_summary" msgid="3800834657847339570"></string>
+    <string name="owner_info_settings_summary" msgid="3800834657847339570"/>
     <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">"ロック画面に表示するテキストを入力します"</string>
     <string name="show_user_info_on_lockscreen_label" msgid="8408914624925608365">"ロック画面にユーザー情報を表示"</string>
     <string name="user_info_settings_title" msgid="1195015434996724736">"ユーザー情報"</string>
@@ -390,7 +388,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">"画面をロックする方法を選択する"</string>
     <string name="unlock_backup_info_summary" msgid="108524727803788172">"フェイスアンロックができない場合、ロックをどのように解除しますか？"</string>
     <string name="unlock_set_unlock_off_title" msgid="7117155352183088342">"なし"</string>
-    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"></string>
+    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"/>
     <string name="unlock_set_unlock_none_title" msgid="5679243878975864640">"スワイプ"</string>
     <string name="unlock_set_unlock_none_summary" msgid="8914673583104628191">"セキュリティなし"</string>
     <string name="unlock_set_unlock_biometric_weak_title" msgid="2227215291604628670">"フェイスアンロック"</string>
@@ -486,7 +484,7 @@
     <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"ペア設定する"</string>
     <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"キャンセル"</string>
     <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"ペア設定により、接続時に連絡先や通話履歴へのアクセスが許可されます。"</string>
-    <string name="bluetooth_error_title" msgid="6850384073923533096"></string>
+    <string name="bluetooth_error_title" msgid="6850384073923533096"/>
     <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>をペアに設定できません。"</string>
     <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"PINまたはパスキーが正しくないため、<xliff:g id="DEVICE_NAME">%1$s</xliff:g>をペアに設定できませんでした。"</string>
     <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>と通信できません。"</string>
@@ -756,7 +754,7 @@
     <string name="home_settings" msgid="212375129455718176">"ホーム"</string>
     <string name="display_settings_title" msgid="1708697328627382561">"表示"</string>
     <string name="sound_settings" msgid="5534671337768745343">"音"</string>
-    <string name="ringtone_summary" msgid="2630023412632683493"></string>
+    <string name="ringtone_summary" msgid="2630023412632683493"/>
     <string name="all_volume_title" msgid="4296957391257836961">"音量"</string>
     <string name="musicfx_title" msgid="3415566786340790345">"サウンド効果"</string>
     <string name="ring_volume_title" msgid="7938706566797464165">"着信音量"</string>
@@ -875,7 +873,7 @@
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"タブレットの状態"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"端末の状態"</string>
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"システムアップデート"</string>
-    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
+    <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"/>
     <string name="firmware_version" msgid="4801135784886859972">"Androidバージョン"</string>
     <string name="model_number" msgid="3765737700545384794">"モデル番号"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"装置ID"</string>
@@ -934,8 +932,8 @@
     <string name="sd_insert_summary" product="default" msgid="2048640010381803841">"マウントするSDカードを挿入"</string>
     <string name="sd_mount" product="nosdcard" msgid="8966695015677343116">"USBストレージをマウント"</string>
     <string name="sd_mount" product="default" msgid="5940523765187704135">"SDカードをマウント"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"></string>
-    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"></string>
+    <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"/>
+    <string name="sd_mount_summary" product="default" msgid="4673411327373419641"/>
     <string name="sd_format" product="nosdcard" msgid="2148179271623099054">"USBストレージ内データを消去"</string>
     <string name="sd_format" product="default" msgid="2576054280507119870">"SDカード内データを消去"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6331905044907914603">"内部USBストレージ内の全データ（音楽、写真など）の消去"</string>
@@ -947,8 +945,8 @@
     <string name="dlg_confirm_unmount_title" product="default" msgid="3634502237262534381">"SDカードのマウントを解除しますか？"</string>
     <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="4322636662873269018">"USBストレージのマウントを解除すると、使用中のアプリの一部が停止し、USBストレージを再マウントするまで使用できなくなる場合があります。"</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="6998379994779187692">"SDカードのマウントを解除すると、使用中のアプリの一部が停止し、SDカードを再マウントするまで使用できなくなる場合があります。"</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"></string>
-    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"></string>
+    <string name="dlg_error_unmount_title" product="nosdcard" msgid="4642742385125426529"/>
+    <string name="dlg_error_unmount_title" product="default" msgid="4642742385125426529"/>
     <string name="dlg_error_unmount_text" product="nosdcard" msgid="4346280469528260684">"USBストレージのマウントを解除できませんでした。しばらくしてからもう一度お試しください。"</string>
     <string name="dlg_error_unmount_text" product="default" msgid="3073562815631781894">"SDカードのマウントを解除できませんでした。しばらくしてからもう一度お試しください。"</string>
     <string name="unmount_inform_text" product="nosdcard" msgid="7120241136790744265">"USBストレージのマウントが解除されます。"</string>
@@ -1001,7 +999,7 @@
     <string name="menu_new" msgid="3014205883303921729">"新しいAPN"</string>
     <string name="menu_save" msgid="8109345640668285399">"保存"</string>
     <string name="menu_cancel" msgid="2194502410474697474">"破棄"</string>
-    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_title" msgid="7631322303341024692"/>
     <string name="error_name_empty" msgid="8418502878620394756">"[名前]フィールドは必須です。"</string>
     <string name="error_apn_empty" msgid="6056233831214537267">"APNは必ず指定してください。"</string>
     <string name="error_mcc_not3" msgid="4560171714156251661">"MCCのフィールドには3桁で指定してください。"</string>
@@ -1254,7 +1252,7 @@
     <string name="clear_data_dlg_text" msgid="8847257251846779938">"このアプリのすべてのデータ（ファイル、設定、アカウント、データベースを含む）が完全に削除されます。"</string>
     <string name="dlg_ok" msgid="2402639055725653590">"OK"</string>
     <string name="dlg_cancel" msgid="1674753358972975911">"キャンセル"</string>
-    <string name="app_not_found_dlg_title" msgid="3127123411738434964"></string>
+    <string name="app_not_found_dlg_title" msgid="3127123411738434964"/>
     <string name="app_not_found_dlg_text" msgid="8333723538280257243">"インストール済みアプリのリストに、このアプリはありません。"</string>
     <string name="clear_data_failed" msgid="1907582169616856698">"アプリのデータを消去できませんでした。"</string>
     <string name="app_factory_reset_dlg_title" msgid="7441012826373143593">"アップデートをアンインストールしますか？"</string>
@@ -1288,7 +1286,7 @@
     <string name="system_package" msgid="6222593098063037137">"システムアップデートは外部メディアにはインストールできません。"</string>
     <string name="force_stop_dlg_title" msgid="977530651470711366">"強制停止しますか？"</string>
     <string name="force_stop_dlg_text" msgid="7208364204467835578">"アプリを強制停止する場合、アプリが正常に機能しないことがあります。"</string>
-    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"></string>
+    <string name="move_app_failed_dlg_title" msgid="1282561064082384192"/>
     <string name="move_app_failed_dlg_text" msgid="3465267182923054022">"アプリを移動できませんでした。<xliff:g id="REASON">%1$s</xliff:g>"</string>
     <string name="app_install_location_title" msgid="2068975150026852168">"優先インストール先"</string>
     <string name="app_install_location_summary" msgid="5155453752692959098">"新しいアプリの優先インストール先を変更する"</string>
@@ -1310,12 +1308,12 @@
     <string name="no_running_services" msgid="2059536495597645347">"実行中のサービスはありません"</string>
     <string name="service_started_by_app" msgid="818675099014723551">"アプリによって起動されたサービス。"</string>
     <!-- no translation found for service_client_name (4037193625611815517) -->
-    <skip />
+    <skip/>
     <string name="service_background_processes" msgid="6844156253576174488">"<xliff:g id="MEMORY">%1$s</xliff:g>空き"</string>
     <string name="service_foreground_processes" msgid="7583975676795574276">"<xliff:g id="MEMORY">%1$s</xliff:g>使用中"</string>
     <string name="memory" msgid="6609961111091483458">"RAM"</string>
     <!-- no translation found for service_process_name (4098932168654826656) -->
-    <skip />
+    <skip/>
     <string name="running_process_item_user_label" msgid="3129887865552025943">"ユーザー: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="8250168004291472959">"削除済みのユーザー"</string>
     <string name="running_processes_item_description_s_s" msgid="5790575965282023145">"<xliff:g id="NUMPROCESS">%1$d</xliff:g>個のプロセスと<xliff:g id="NUMSERVICES">%2$d</xliff:g>個のサービス"</string>
@@ -1351,7 +1349,7 @@
     <string name="language_settings_category" msgid="2288258489940617043">"言語設定"</string>
     <string name="keyboard_settings_category" msgid="8275523930352487827">"キーボードと入力方法"</string>
     <string name="phone_language" msgid="8870144109924299673">"言語"</string>
-    <string name="phone_language_summary" msgid="3871309445655554211"></string>
+    <string name="phone_language_summary" msgid="3871309445655554211"/>
     <string name="auto_replace" msgid="6199184757891937822">"自動修正"</string>
     <string name="auto_replace_summary" msgid="370288728200084466">"入力間違いを自動修正する"</string>
     <string name="auto_caps" msgid="6379232078052591265">"自動大文字変換"</string>
@@ -1376,7 +1374,7 @@
     <string name="keyboard_layout_default_label" msgid="2952672513543482165">"デフォルト"</string>
     <string name="keyboard_layout_picker_title" msgid="556081931972771610">"キーボードレイアウト"</string>
     <string name="user_dict_settings_title" msgid="3427169369758733521">"単語リスト"</string>
-    <string name="user_dict_settings_summary" msgid="7965571192902870454"></string>
+    <string name="user_dict_settings_summary" msgid="7965571192902870454"/>
     <string name="user_dict_settings_add_menu_title" msgid="4056762757149923551">"追加"</string>
     <string name="user_dict_settings_add_dialog_title" msgid="4702613990174126482">"辞書に追加"</string>
     <string name="user_dict_settings_add_screen_title" msgid="742580720124344291">"フレーズ"</string>
@@ -1625,7 +1623,7 @@
     <string name="battery_stats_wake_lock_label" msgid="1908942681902324095">"スリープなし"</string>
     <string name="battery_stats_phone_signal_label" msgid="3537569115723850618">"モバイルネットワーク信号"</string>
     <!-- no translation found for battery_stats_last_duration (1535831453827905957) -->
-    <skip />
+    <skip/>
     <string name="awake" msgid="387122265874485088">"端末使用時間"</string>
     <string name="wifi_on_time" msgid="3208518458663637035">"Wi-FiをONにしている時間"</string>
     <string name="bluetooth_on_time" msgid="3056108148042308690">"Wi-FiをONにしている時間"</string>
@@ -1808,10 +1806,10 @@
     <string name="gadget_brightness_state_auto" msgid="6667967252426515446">"自動"</string>
     <!-- String.format failed for translation -->
     <!-- no translation found for gadget_brightness_state_full (6814570109772137631) -->
-    <skip />
+    <skip/>
     <!-- String.format failed for translation -->
     <!-- no translation found for gadget_brightness_state_half (3696671957608774204) -->
-    <skip />
+    <skip/>
     <string name="gadget_brightness_state_off" msgid="946382262872753084">"OFF"</string>
     <string name="vpn_settings_title" msgid="5662579425832406705">"VPN"</string>
     <string name="credentials_title" msgid="4446234003860769883">"認証情報ストレージ"</string>
@@ -1829,7 +1827,7 @@
     <string name="credential_storage_type_software" msgid="4403117271207715378">"ソフトウェアのみ"</string>
     <string name="credentials_settings_not_available" msgid="7968275634486624215">"認証情報はこのユーザーには表示されません"</string>
     <string name="credentials_install_gesture_explanation" msgid="7408921172253634829">"認証情報をインストールするには、ロック解除パターンを入力する必要があります。"</string>
-    <string name="credentials_unlock" msgid="385427939577366499"></string>
+    <string name="credentials_unlock" msgid="385427939577366499"/>
     <string name="credentials_unlock_hint" msgid="2301301378040499348">"認証情報ストレージのパスワードを入力してください。"</string>
     <string name="credentials_old_password" msgid="7553393815538684028">"現在のパスワード:"</string>
     <string name="credentials_reset_hint" msgid="6297256880896133631">"コンテンツをすべて削除しますか？"</string>
@@ -1865,7 +1863,7 @@
     <string name="local_backup_password_toast_success" msgid="582016086228434290">"新しいバックアップパスワードが設定されました"</string>
     <string name="local_backup_password_toast_confirmation_mismatch" msgid="3495167398824569524">"新しいパスワードと確認用のパスワードが一致しません。"</string>
     <string name="local_backup_password_toast_validation_failure" msgid="5646377234895626531">"バックアップパスワードの設定に失敗しました"</string>
-    <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
+    <string name="backup_erase_dialog_title" msgid="1027640829482174106"/>
     <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Wi-Fiパスワード、ブックマーク、その他の設定とアプリのデータのバックアップを停止し、Googleサーバー上のすべてのコピーを消去しますか？"</string>
     <string name="device_admin_settings_title" msgid="1335557832906433309">"デバイス管理の設定"</string>
     <string name="active_device_admin_msg" msgid="6930903262612422111">"デバイス管理者"</string>
@@ -1960,7 +1958,7 @@
     <string name="remove_account_failed" msgid="4010643669489606536">"この変更は管理者によって許可されていません"</string>
     <string name="provider_label" msgid="7724593781904508866">"プッシュ型登録"</string>
     <!-- no translation found for sync_item_title (4782834606909853006) -->
-    <skip />
+    <skip/>
     <string name="cant_sync_dialog_title" msgid="8923508322291625282">"手動では同期できません"</string>
     <string name="cant_sync_dialog_message" msgid="1938380442159016449">"このアイテムの同期は現在無効になっています。この設定を変更するには、バックグラウンドデータと自動同期を一時的にONにします。"</string>
     <string name="wimax_settings" msgid="2655139497028469039">"4G"</string>
@@ -2276,7 +2274,7 @@
     <string name="call_manager_enable_summary" msgid="8458447798019519240">"このサービスを使って通話方法を管理することを許可します。"</string>
     <string name="call_manager_title" msgid="4479949569744516457">"通話マネージャ"</string>
     <!-- no translation found for call_manager_summary (5918261959486952674) -->
-    <skip />
+    <skip/>
     <string name="cell_broadcast_settings" msgid="2451014351355183338">"緊急警報"</string>
     <string name="network_operators_settings" msgid="2583178259504630435">"携帯通信会社"</string>
     <string name="access_point_names" msgid="1381602020438634481">"アクセスポイント名"</string>
@@ -2307,7 +2305,7 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"写真を撮影"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"ギャラリーから画像を選ぶ"</string>
     <string name="user_image_photo_selector" msgid="5492565707299454873">"写真を選択"</string>
-    <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+    <string name="regulatory_info_text" msgid="5623087902354026557"/>
     <string name="sim_setup_wizard_title" msgid="1732682852692274928">"SIMカード"</string>
     <string name="sim_settings_title" msgid="6822745211458959756">"SIMカード"</string>
     <string name="sim_settings_summary" msgid="4050372057097516088">"<xliff:g id="SIM_NAME">%1$s</xliff:g> - <xliff:g id="SIM_NUMBER">%2$s</xliff:g>"</string>

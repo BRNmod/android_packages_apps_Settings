@@ -196,7 +196,7 @@
   <string name="block_notifications_title">Filtriar notificaciones</string>
   <string name="block_notifications_summary">Remanar filtros y notificaciones bloquiaes</string>
   <string name="no_filters_title">Nun hai filtros afitaos</string>
-  <string name="cmupdate_settings_title">Anovamientos CyanogenMod</string>
+  
   <string name="update_recovery_title">Anovar col recovery de Cyanogen</string>
   <string name="update_recovery_summary">Anovar recovery colos anovamientos del sistema</string>
   <string name="update_recovery_on_warning">AVISU: Cuando esta función ta activada, el recovery instaláu va sustituyise por ún incluyíu cola versión actual del SO.\n\nEl recovery va anovase xunto con meyores del sistema, ayudando a garantizar la compatibilidá con futures versiones.\n\n¿Quies activar esta función?</string>
@@ -620,8 +620,8 @@ Calca pa empareyar el preséu Bluetooth enantes de configurar los disparadores.<
   <string name="graphics_title">Gráficos y renderizáu</string>
   <string name="edge_gesture_service_title">Bloquiar eventos táctiles</string>
   <string name="edge_gesture_service_summary">Nun unviar a les aplicaciones eventos táctiles de la barra d\'estáu y de navegación</string>
-  <string name="cmlicense_title">Llicencia CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">Llicencia CyanogenMod</string>
+  
+  
   <string name="unlock_quick_unlock_control_title">Desbloquéu rápidu</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquiar automáticamente cuando s\'introduz el PIN/clave correutu</string>
   <string name="unlock_scramble_pin_layout_title">Disposición al debalu</string>
