@@ -218,7 +218,6 @@
   <string name="block_notifications_title">Filtra les notificacions</string>
   <string name="block_notifications_summary">Gestiona les notificacions i filtres ignorats</string>
   <string name="no_filters_title">Sense filtres establerts</string>
-  
   <string name="update_recovery_title">Actualitza la recuperació de Cyanogen</string>
   <string name="update_recovery_summary">Actualitza la recuperació amb les actualitzacions del sistema</string>
   <string name="update_recovery_on_warning">AVÍS: Quan aquesta funció estigui activada, la recuperació que tinguis instal·lada serà substituïda per la versió actual inclosa amb el SO instal·lat.\n\nEl teu sistema de recuperació s\'actualitzarà juntament amb les millores del sistema, ajudant a assegurar la compatibilitat amb futures versions.\n\nVols habilitar aquesta característica?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">Gràfics i renderitzat</string>
   <string name="edge_gesture_service_title">Bloqueja els esdeveniments de gestos tàctils</string>
   <string name="edge_gesture_service_summary">No enviïs esdeveniments tàctils per la navegació ni gestos de la barra d\'estat a les aplicacions</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Mostra el patró erroni</string>
   <string name="lockpattern_settings_enable_dots_title">Mostra els punts del patró</string>
   <string name="unlock_quick_unlock_control_title">Desbloqueig ràpid</string>
@@ -839,19 +836,6 @@
   <string name="battery_saver_threshold">Llindar d\'estalvi de bateria</string>
   <string name="battery_saver_summary">Redueix el rendiment i limita les dades en segon pla</string>
   <string name="battery_saver_summary_unavailable">No disponible durant la càrrega</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Notificacions emergents</string>
   <string name="summary_heads_up_enabled">Les notificacions emergents estan activades</string>
   <string name="summary_heads_up_disabled">Les notificacions emergents estan desactivades</string>

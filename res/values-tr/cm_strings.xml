@@ -218,7 +218,6 @@
   <string name="block_notifications_title">Bildirimleri filtrele</string>
   <string name="block_notifications_summary">Yoksayılan bildirimleri ve filtreleri yönet</string>
   <string name="no_filters_title">Hiçbir filtre ayarlanmadı</string>
-  
   <string name="update_recovery_title">Cyanogen kurtarma modunu güncelle</string>
   <string name="update_recovery_summary">Sistem güncellemesi ile kurtarma modunu güncelle</string>
   <string name="update_recovery_on_warning">DİKKAT: Bu özellik etkinken, yüklü kurtarma modunuz mevcut İS sürümündeki mod ile değiştirilecektir. \n\nKurtarma modunuz sistem güncellemeleri ile birlikte güncellenecektir, böylelikle gelecek sürümler ile uyumluluk sağlanacaktır.\n\nBu özelliği etkinleştirmek ister misiniz?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">Grafik ve modelleme</string>
   <string name="edge_gesture_service_title">Dokunmatik hareketlerini engelle</string>
   <string name="edge_gesture_service_summary">Telefonda gezinme ve durum çubuğu için uygulamalara dokunmatik iletiler gönderme</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Desen hatasını göster</string>
   <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
   <string name="unlock_quick_unlock_control_title">Hızlı kilit aç</string>
@@ -843,19 +840,6 @@
   <string name="battery_saver_threshold">Pil tasarruf eşiği</string>
   <string name="battery_saver_summary">Performansı düşürür ve arka plan verilerini sınırlar</string>
   <string name="battery_saver_summary_unavailable">Şarj sırasında kullanılabilir değil</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Bildirim Pencereleri</string>
   <string name="summary_heads_up_enabled">Açılır bildirimler etkinleştirildi</string>
   <string name="summary_heads_up_disabled">Açılır bildirimler devre dışı bırakıldı</string>

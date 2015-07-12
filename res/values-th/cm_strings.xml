@@ -217,7 +217,6 @@
   <string name="block_notifications_title">ตัวกรองการแจ้งเตือน</string>
   <string name="block_notifications_summary">จัดการการละเว้นการแจ้งเตือนและตัวกรอง</string>
   <string name="no_filters_title">ไม่ตั้งค่าตัวกรอง</string>
-  
   <string name="update_recovery_title">ปรับปรุงรุ่น Cyanogen recovery</string>
   <string name="update_recovery_summary">ปรับปรุงรุ่น recovery ด้วยการปรับปรุงระบบ</string>
   <string name="update_recovery_on_warning">คำเตือน: เมื่อเปิดใช้งานความสามารถนี้ recovery ของคุณจะถูกเขียนทับด้วย recovery ของระบบ\n\n recovery ของคุณจะถูกปรับปรุงรุ่นไปพร้อมกับระบบ ช่วยให้ระบบสามารถเข้ากับ recovery ได้ดีขึ้น\n\n คุณต้องการใช้ความสามารถนี้ไหม?</string>
@@ -686,8 +685,6 @@
   <string name="graphics_title">ภาพและกราฟฟิก</string>
   <string name="edge_gesture_service_title">บล็อกการแตะเมื่อปัด</string>
   <string name="edge_gesture_service_summary">อย่าส่งกิจกรรมการแตะไปยังแอป หากใช้ปัดแถบแจ้งเตือนหรือแถบนำทาง</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">แสดงลายเส้นที่ผิดพลาด</string>
   <string name="lockpattern_settings_enable_dots_title">แสดงจุดที่ลากผ่าน</string>
   <string name="unlock_quick_unlock_control_title">ปลดล็อคแบบเร็ว</string>
@@ -838,19 +835,6 @@
   <string name="battery_saver_threshold">ขีดจำกัดการประหยัดแบตเตอรี่</string>
   <string name="battery_saver_summary">ลดประสิทธิภาพและจำกัดการใช้ข้อมูลเบื้องหลัง</string>
   <string name="battery_saver_summary_unavailable">ไม่สามารถใช้งานได้ขณะกำลังชาร์จ</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Heads up</string>
   <string name="summary_heads_up_enabled">เปิดใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>
   <string name="summary_heads_up_disabled">ไม่ใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>

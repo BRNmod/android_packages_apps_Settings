@@ -169,7 +169,6 @@
   <string name="sms_security_check_limit_title">SMS-gräns</string>
   <string name="block_notifications_title">Filtrera meddelanden</string>
   <string name="block_notifications_summary">Hantera ignorerade aviseringar och filter</string>
-  
   <string name="mod_version">CyanogenMod-version</string>
   <string name="mod_version_default">Okänd</string>
   <string name="build_date">Byggdatum</string>
@@ -428,8 +427,6 @@
   <string name="graphics_title">Grafik och rendering</string>
   <string name="edge_gesture_service_title">Blockera gesthändelser</string>
   <string name="edge_gesture_service_summary">Skicka inte beröringshändelser för navigerings- och statusfältsgester till appar</string>
-  
-  
   <string name="unlock_quick_unlock_control_title">Snabb upplåsning</string>
   <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord har angivits</string>
   <string name="unlock_scramble_pin_layout_title">Kasta om layout</string>

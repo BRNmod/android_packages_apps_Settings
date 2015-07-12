@@ -219,7 +219,6 @@
   <string name="block_notifications_title">Filtruoti pranešimus</string>
   <string name="block_notifications_summary">Tvarkyti ignoruojamus pranešimus ir filtrus</string>
   <string name="no_filters_title">Nenustatyti jokie filtrai</string>
-  
   <string name="update_recovery_title">Atnaujinti „Cyanogen“ atkūrimo programą</string>
   <string name="update_recovery_summary">Atnaujinti atkūrimo programą kartu su sistemos atnaujinimais</string>
   <string name="update_recovery_on_warning">PRANEŠIMAS: Kai ši funkcija yra įgalinta, jūsų įdiegta atkūrimo programa bus pakeista kartu su dabartinės versijos OS.\n\nJūsų atkūrimo programa bus atnaujinta kartu su sistemos atnaujinimais, padedant užtikrinti suderinamumą su būsimomis versijomis.\n\nAr norėtumėte įgalinti šią funkciją?</string>
@@ -688,8 +687,6 @@
   <string name="graphics_title">Grafika ir atvaizdavimas</string>
   <string name="edge_gesture_service_title">Blokuoti gestų lietimo įvykius</string>
   <string name="edge_gesture_service_summary">Nesiųsti lietimo įvykių programoms dėl naršymo ir būsenos juostos gestų</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Rodyti modelio klaidą</string>
   <string name="lockpattern_settings_enable_dots_title">Rodyti modelio taškus</string>
   <string name="unlock_quick_unlock_control_title">Greitas atrakinimas</string>
@@ -844,19 +841,6 @@
   <string name="battery_saver_threshold">Akumuliatoriaus tausojimo riba</string>
   <string name="battery_saver_summary">Sumažinti našumą ir apriboti foninius duomenis</string>
   <string name="battery_saver_summary_unavailable">Negalima, kai įkraunama</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Iššokantys pranešimai</string>
   <string name="summary_heads_up_enabled">Iššokantys pranešimai yra įgalinti</string>
   <string name="summary_heads_up_disabled">Iššokantys pranešimai yra neleidžiami</string>

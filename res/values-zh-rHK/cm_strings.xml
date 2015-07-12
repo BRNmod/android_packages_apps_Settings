@@ -142,7 +142,6 @@
   <string name="sms_security_check_limit_title">短訊訊息限制</string>
   <string name="block_notifications_title">過濾器通知</string>
   <string name="block_notifications_summary">管理被忽略的通知和過濾器</string>
-  
   <string name="mod_version">CyanogenMod 版本</string>
   <string name="mod_version_default">不明</string>
   <string name="build_date">版本日期</string>

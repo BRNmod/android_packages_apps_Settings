@@ -209,7 +209,6 @@
   <string name="block_notifications_title">فلتەرکردنی ئاگادارییه‌کان</string>
   <string name="block_notifications_summary">به‌ڕێوه‌بردنی ئاگادارییه‌ پشتگوێخراوه‌کان</string>
   <string name="no_filters_title">فلته‌ری نه‌بێت</string>
-  
   <string name="update_recovery_title">بەڕۆژکردنی ڕیکاڤێری سایانۆجێن</string>
   <string name="update_recovery_summary">نوێکردنەوەی ڕیکەڤەری لەگەڵ نوێکردنەوەی سیستەمدا</string>
   <string name="update_recovery_on_warning">تێبینی: کاتێک ئەم خزمەتە چاڵاک کرا ریکەڤەریەکەی تۆ جێگەی دەگیرێت بە ئەو وەشانەی ئێستای سیستەمەکەت \n\n ریکەڤەریەکەت نوێ دەکرێتەوە لەگەڵ بەرزکردنەوەی سیستەمەکەت بۆ یارمەتیدان لە گونجاندنی وەشانەکە \n\n ئایە ئەتەوێت ئەم خزمەتە چاڵاک بکەیت؟?</string>
@@ -666,8 +665,6 @@
   <string name="graphics_title">هێڵکاریانە و ڕینده‌رینگ</string>
   <string name="edge_gesture_service_title">بلۆکردنی سوینی میوان</string>
   <string name="edge_gesture_service_summary">ڕووداوی لێدانه‌کان مه‌نێره‌ بۆ ڕێدۆزه‌ر یان شریتی دۆخ بۆ به‌رنامه‌</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">پیشاندانی هەڵەی چنراو</string>
   <string name="lockpattern_settings_enable_dots_title">پیشاندانی خاڵەکانی چنراو</string>
   <string name="unlock_quick_unlock_control_title">چالاککردنی خێرا</string>
@@ -775,18 +772,6 @@
   <string name="live_display_low_power_summary">ڕێکخستنی پیشاندان بۆ هێزی کەم بەکارهێنان بەبێ پلەدابەزاندن</string>
   <string name="live_display_enhance_color_title">ڕەنگی زیادەکات</string>
   <string name="battery_saver_summary_unavailable">لەکارە نیە کاتێ بارگاوی ئەبێت</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">فه‌رمووه‌کان</string>
   <string name="summary_heads_up_enabled">ئاگاداری بچوکه‌ دیده‌ن کارده‌کات</string>
   <string name="summary_heads_up_disabled">ئاگاداری بچوکه‌ دیده‌ن کارناکات</string>

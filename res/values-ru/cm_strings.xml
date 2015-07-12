@@ -219,7 +219,6 @@
   <string name="block_notifications_title">Фильтр уведомлений</string>
   <string name="block_notifications_summary">Настройка игнорируемых уведомлений и фильтров</string>
   <string name="no_filters_title">Фильтр не установлен</string>
-  
   <string name="update_recovery_title">Обновлять режим восстановления</string>
   <string name="update_recovery_summary">Перезаписывать раздел Recovery при установке обновлений</string>
   <string name="update_recovery_on_warning">Когда эта функция включена, установленная прошивка режима восстановления будет перезаписана той, которая соответствует текущей версии ОС.\n\nРежим восстановления будет обновляться вместе с обновлениями системы, обеспечивая совместимость с будущими версиями.\n\nВключить использование этой функции?</string>
@@ -688,8 +687,6 @@
   <string name="graphics_title">Графика и рисование</string>
   <string name="edge_gesture_service_title">Подавлять события жестов</string>
   <string name="edge_gesture_service_summary">Не передавать приложениям жесты показа строки состояния и панели навигации</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Показывать неверный ввод</string>
   <string name="lockpattern_settings_enable_dots_title">Показывать точки</string>
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
@@ -844,19 +841,6 @@
   <string name="battery_saver_threshold">Автом. энергосбережение</string>
   <string name="battery_saver_summary">Снизить производительность и ограничить фоновую передачу данных</string>
   <string name="battery_saver_summary_unavailable">Недоступно во время зарядки</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Всплывающие уведомления</string>
   <string name="summary_heads_up_enabled">Включены</string>
   <string name="summary_heads_up_disabled">Выключены</string>

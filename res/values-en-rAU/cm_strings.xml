@@ -199,7 +199,6 @@
   <string name="block_notifications_title">Filter notifications</string>
   <string name="block_notifications_summary">Manage ignored notifications and filters</string>
   <string name="no_filters_title">No filters set</string>
-  
   <string name="update_recovery_title">Update Cyanogen recovery</string>
   <string name="update_recovery_summary">Update recovery with system updates</string>
   <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
@@ -644,8 +643,6 @@
   <string name="graphics_title">Graphics and rendering</string>
   <string name="edge_gesture_service_title">Block gesture touch events</string>
   <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
-  
-  
   <string name="unlock_quick_unlock_control_title">Quick unlock</string>
   <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>

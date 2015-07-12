@@ -211,7 +211,6 @@
   <string name="block_notifications_title">Filtre des notifications</string>
   <string name="block_notifications_summary">Gérer les notifications ignorées et les filtres</string>
   <string name="no_filters_title">Aucun filtre défini</string>
-  
   <string name="update_recovery_title">Mettre à jour le recovery Cyanogen</string>
   <string name="update_recovery_summary">Mettre à jour le recovery avec les mises à jour système</string>
   <string name="update_recovery_on_warning">REMARQUE : Lorsque cette fonction est activée, le recovery installé sera remplacé par celui du système d\'exploitation.\n\nVotre recovery sera mis à jour avec les mises à niveau du système d\'exploitation, assurant ainsi la compatibilité avec les futures versions.\n\nVoulez-vous activer cette fonction ?</string>
@@ -675,8 +674,6 @@
   <string name="graphics_title">Graphismes et rendu</string>
   <string name="edge_gesture_service_title">Bloquer les événements gestuels</string>
   <string name="edge_gesture_service_summary">Ne pas envoyer aux applications les événements gestuels des barres d\'état et de navigation</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
   <string name="lockpattern_settings_enable_dots_title">Afficher les points du schéma</string>
   <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
@@ -823,19 +820,6 @@
   <string name="battery_saver_threshold">Seuil d\'économiseur de batterie</string>
   <string name="battery_saver_summary">Réduis les performances et limite la consommation de données</string>
   <string name="battery_saver_summary_unavailable">Non disponible pendant le chargement</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Notifications flottantes</string>
   <string name="summary_heads_up_enabled">Les notifications flottantes sont activées</string>
   <string name="summary_heads_up_disabled">Les notifications flottantes sont désactivées</string>

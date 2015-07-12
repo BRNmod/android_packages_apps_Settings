@@ -218,7 +218,6 @@
   <string name="block_notifications_title">סנן הודעות</string>
   <string name="block_notifications_summary">נהל התראות מהן התעלמת ומסננים</string>
   <string name="no_filters_title">לא הוגדרו מסננים</string>
-  
   <string name="update_recovery_title">עדכן את ה-Recovery של Cyanogen</string>
   <string name="update_recovery_summary">עדכן את ה-Recovery יחד עם עדכוני מערכת</string>
   <string name="update_recovery_on_warning">שים לב: כשתכונה זו מופעלת, ה-Recovery הנוכחי שלך יוחלף ב-Recovery הכלול בגרסה הנוכחית של מערכת ההפעלה שלך.\n\nה-Recovery הנוכחי שלך יתעדכן יחד עם עדכונים למערכת שלך, כדי להבטיח תאימות עם גרסאות עתידיות.\n\nהאם להפעיל את תכונה זו?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">גרפיקה ועיבוד</string>
   <string name="edge_gesture_service_title">חסום אירועי מחוות מגע</string>
   <string name="edge_gesture_service_summary">אל תשלח נגיעות בסרגל הניווט ובשורת המצב לאפליקציות</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">הצג שגיאות דפוס</string>
   <string name="lockpattern_settings_enable_dots_title">הצג דפוס נקודות</string>
   <string name="unlock_quick_unlock_control_title">פתיחה מהירה</string>
@@ -843,19 +840,6 @@
   <string name="battery_saver_threshold">מצב הפעלת שומר סוללה</string>
   <string name="battery_saver_summary">הנמך ביצועים והגבל תעבורת נתונים ברקע</string>
   <string name="battery_saver_summary_unavailable">לא זמין בזמן טעינה</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">התראות קופצות</string>
   <string name="summary_heads_up_enabled">התראות קופצות פעילות</string>
   <string name="summary_heads_up_disabled">התראות קופצות כבויות</string>

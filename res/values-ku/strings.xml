@@ -1116,7 +1116,6 @@
   <string name="security_settings_desc" product="tablet">ئەم بەرنامەیە ئەتوانرێت کاری پێبکرێت لەسەر تاتەژمێرەکەت.</string>
   <string name="security_settings_desc" product="default">ئەم بەرنامەیە ئەتوارێت بەکاربهێنرێت لە سەر تەلەفۆنەکەت:</string>
   <string name="security_settings_desc_multi" product="tablet">ئەم بەرنامەیە ئەتوانرێت لەسەر تاتەژمێرەکە بەکاربهێنرێت.
-          
          are available to <xliff:g id="base_app_name">%1$s</xliff:g>
          because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
   <string name="security_settings_desc_multi" product="default">This app can access the following on your phone.

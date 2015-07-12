@@ -214,7 +214,6 @@
   <string name="block_notifications_title">Filtrere meddelelser</string>
   <string name="block_notifications_summary">Administrere ignoreret underretninger og filtre</string>
   <string name="no_filters_title">Der er ingen filtre</string>
-  
   <string name="update_recovery_title">Opdatér Cyanogen recovery</string>
   <string name="update_recovery_summary">Opdatér recovery med systemopdateringer</string>
   <string name="update_recovery_on_warning">BEMÆRK: Når denne funktion er aktiveret, vil din installerede \'recovery\' blive erstattet af en inkluderet i den aktuelle version af styresystemet.\n\nDin \'recovery\' opdateres sammen med opdateringer til styresystemet, hvilket sikrer kompatibilitet med fremtidige versioner.\n\nVil du aktivere denne funktion?</string>
@@ -682,8 +681,6 @@
   <string name="graphics_title">Grafik og rendering</string>
   <string name="edge_gesture_service_title">Blokér berøringsevents for bevægelser</string>
   <string name="edge_gesture_service_summary">Send ikke berøringsevents for navigations- og statuslinjebevægelser til apps</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Vis mønsterfejl</string>
   <string name="lockpattern_settings_enable_dots_title">Vis mønsterprikker</string>
   <string name="unlock_quick_unlock_control_title">Hurtig-oplåsning</string>
@@ -828,19 +825,6 @@
   <string name="battery_saver_threshold">Grænse for strømspare</string>
   <string name="battery_saver_summary">Reducere ydeevnen og begrænser baggrundsdata</string>
   <string name="battery_saver_summary_unavailable">Ikke tilgængelig under opladning</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Svævende meddelelser</string>
   <string name="summary_heads_up_enabled">Pop op-meddelelser er aktiveret</string>
   <string name="summary_heads_up_disabled">Pop op-meddelelser er deaktiveret</string>

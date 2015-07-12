@@ -218,7 +218,6 @@
   <string name="block_notifications_title">Meldingen filteren</string>
   <string name="block_notifications_summary">Genegeerde meldingen en filters beheren</string>
   <string name="no_filters_title">Geen filters ingesteld</string>
-  
   <string name="update_recovery_title">Cyanogen-recovery bijwerken</string>
   <string name="update_recovery_summary">Recovery bijwerken met systeemupdates</string>
   <string name="update_recovery_on_warning">Let op: als deze functie ingeschakeld is, wordt uw recovery vervangen door de recovery die met uw huidige besturingssysteem geleverd wordt.\n\nUw recovery wordt met systeemupdates ook bijgewerkt om compatibiliteit met toekomstige versies te garanderen.\n\nWilt u deze functie inschakelen?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">Grafisch en weergave</string>
   <string name="edge_gesture_service_title">Aanraakgebaren blokkeren</string>
   <string name="edge_gesture_service_summary">Aanraakgebaren voor navigatie- en statusbalk niet naar apps sturen</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Patroonfout weergeven</string>
   <string name="lockpattern_settings_enable_dots_title">Patroonknoppen weergeven</string>
   <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
@@ -843,19 +840,6 @@
   <string name="battery_saver_threshold">Drempelwaarde energiebesparing</string>
   <string name="battery_saver_summary">Prestaties verminderen en achtergrondgegevens beperken</string>
   <string name="battery_saver_summary_unavailable">Niet beschikbaar bij opladen</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Heads-up</string>
   <string name="summary_heads_up_enabled">Zwevende meldingen ingeschakeld</string>
   <string name="summary_heads_up_disabled">Zwevende meldingen uitgeschakeld</string>

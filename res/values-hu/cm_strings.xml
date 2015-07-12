@@ -218,7 +218,6 @@
   <string name="block_notifications_title">Értesítések szűrése</string>
   <string name="block_notifications_summary">Figyelmen kívül hagyott értesítések és szűrők kezelése</string>
   <string name="no_filters_title">Nincs szűrő beállítva</string>
-  
   <string name="update_recovery_title">CM recovery frissítése</string>
   <string name="update_recovery_summary">Rendszerfrissítések telepítése közben frissítse a recovery-t</string>
   <string name="update_recovery_on_warning">FIGYELEM: Ha ezen funkció aktiválva van, a telepített recovery le lesz cserélve a jelenleg futó operációs rendszerének megfelelően.\n\nA recovery együtt lesz frissítve a rendszerrel, ezáltal biztosítva a kompatibilitást a jövőbeli verziókkal.\n\nBiztosan aktiválja a funkciót?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">Grafika és renderelés</string>
   <string name="edge_gesture_service_title">Kézmozdulatok letiltása</string>
   <string name="edge_gesture_service_summary">Az alkalmazások nem veszik figyelembe a navigációs- és állapotsáv érintéseket</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Hibás minta megjelenítése</string>
   <string name="lockpattern_settings_enable_dots_title">Feloldási pontok megjelenítése</string>
   <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
@@ -843,19 +840,6 @@
   <string name="battery_saver_threshold">Akkumulátor kímélő küszöb</string>
   <string name="battery_saver_summary">Csökkenti a teljesítményt és korlátozza a háttér adatokat</string>
   <string name="battery_saver_summary_unavailable">Töltés közben nem érhető el</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Lebegő értesítés</string>
   <string name="summary_heads_up_enabled">Lebegő értesítések engedélyezve</string>
   <string name="summary_heads_up_disabled">Lebegő értesítések letiltva</string>

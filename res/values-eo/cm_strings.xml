@@ -218,7 +218,6 @@
   <string name="block_notifications_title">Filtri atentigojn</string>
   <string name="block_notifications_summary">Mastrumi ignoritajn atentigojn kaj filtrilojn</string>
   <string name="no_filters_title">Neniu filtrilo ŝaltita</string>
-  
   <string name="update_recovery_title">Ĝistadigi riparadon de Cyanogen</string>
   <string name="update_recovery_summary">Ĝistadigi riparadon de Cyanogen kun sistemaj ĝistadigadoj</string>
   <string name="update_recovery_on_warning">ATENTU: Kiam tiu funkcio estas ŝaltita, via instalata riparado estos anstataŭigita per unu el la aktuala sistemo.\n\nVia riparado estos ĝistatigita samtempe kiel la sistemaj ĝisdatigadoj, kaj tio helpos al kongrueco de la estontaj versioj.\n\nĈu vi volas ŝalti tiun  funkcion?</string>
@@ -687,8 +686,6 @@
   <string name="graphics_title">Gafikaĵoj kaj bildigo</string>
   <string name="edge_gesture_service_title">Bloki gestajn eventojn</string>
   <string name="edge_gesture_service_summary">Ne sendi tuŝajn eventojn por navigilo kaj stata breto al aplikaĵoj</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Montri ŝablonan eraron</string>
   <string name="lockpattern_settings_enable_dots_title">Montri ŝablonajn punktojn</string>
   <string name="unlock_quick_unlock_control_title">Rapida malŝloso</string>
@@ -843,19 +840,6 @@
   <string name="battery_saver_threshold">Limo de bateria ŝparado</string>
   <string name="battery_saver_summary">Malaltigi rendimenton kaj limigi uzadon de datumoj</string>
   <string name="battery_saver_summary_unavailable">Ne disponeblas dum ŝarĝado</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Flugantaj atentigoj</string>
   <string name="summary_heads_up_enabled">Ŝpruc-atentigiloj estas ŝaltitaj</string>
   <string name="summary_heads_up_disabled">Ŝpruc-atentigiloj estas malŝaltitaj</string>

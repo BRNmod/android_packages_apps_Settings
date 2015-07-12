@@ -217,7 +217,6 @@
   <string name="block_notifications_title">通知のフィルタリング</string>
   <string name="block_notifications_summary">無視する通知やフィルターを管理する</string>
   <string name="no_filters_title">フィルターが設定されていません</string>
-  
   <string name="update_recovery_title">Cyanogenリカバリーをアップデート</string>
   <string name="update_recovery_summary">システムアップデートと同時にリカバリーをアップデートする</string>
   <string name="update_recovery_on_warning">注意: この機能を有効にすると、インストールされているリカバリーは実行しているOSの現在のバージョンに含まれるリカバリーに変更されます。\n\nシステムのアップグレードと同時にリカバリーがアップデートされるので、今後のバージョンとの互換性の確保に繋がります。\n\nこの機能を有効にしますか？</string>
@@ -686,8 +685,6 @@
   <string name="graphics_title">グラフィックスとレンダリング</string>
   <string name="edge_gesture_service_title">ジェスチャータッチイベントをブロック</string>
   <string name="edge_gesture_service_summary">ナビゲーションバーとステータスバーのジェスチャーのタッチイベントをアプリに送信しない</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
   <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
@@ -842,19 +839,6 @@
   <string name="battery_saver_threshold">バッテリーセーバーの開始値</string>
   <string name="battery_saver_summary">パフォーマンスとバックグランドデータを制限する</string>
   <string name="battery_saver_summary_unavailable">充電中は利用できません</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">ヘッドアップ</string>
   <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
   <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>

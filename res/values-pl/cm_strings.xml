@@ -219,7 +219,6 @@
   <string name="block_notifications_title">Filtrowanie powiadomień</string>
   <string name="block_notifications_summary">Zarządzaj ignorowanymi powiadomieniami i filtrami</string>
   <string name="no_filters_title">Nie wybrano filtrów</string>
-  
   <string name="update_recovery_title">Aktualizuj recovery Cyanogen</string>
   <string name="update_recovery_summary">Aktualizuj recovery wraz z aktualizacjami systemu</string>
   <string name="update_recovery_on_warning">UWAGA: Kiedy ta funkcja jest włączona, twoje recovery zostanie zastąpione przez to dołączone do aktualnie działającej wersji systemu.\n\nTwoje recovery będzie aktualizowane wraz z aktualizacjami systemu, pomagając w zapewnieniu kompatybilność z przyszłymi wersjami.\n\nChciałbyś włączyć tę funkcję?</string>
@@ -688,8 +687,6 @@
   <string name="graphics_title">Grafika i renderowanie</string>
   <string name="edge_gesture_service_title">Blokuj zdarzenia gestów dotykowych</string>
   <string name="edge_gesture_service_summary">Nie przesyłaj zdarzeń dotykowych dla gestów pasków nawigacji i statusu do aplikacji</string>
-  
-  
   <string name="lockpattern_settings_enable_error_path_title">Pokazuj błędny wzór</string>
   <string name="lockpattern_settings_enable_dots_title">Pokazuj punkty wzoru</string>
   <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
@@ -844,19 +841,6 @@
   <string name="battery_saver_threshold">Próg oszczędzania baterii</string>
   <string name="battery_saver_summary">Zmniejsza wydajność oraz ogranicza dane w tle</string>
   <string name="battery_saver_summary_unavailable">Nie dostępny podczas ładowania</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
   <string name="summary_heads_up_enabled">Wyskakujące powiadomienia są włączone</string>
   <string name="summary_heads_up_disabled">Wyskakujące powiadomienia są wyłączone</string>
