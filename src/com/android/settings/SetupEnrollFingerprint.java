@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2015 BRNmod
  * Copyright (C) 2015 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,7 +29,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import com.android.internal.widget.LockPatternUtils;
-import com.android.settings.cmstats.FingerprintStats;
 import com.android.setupwizard.navigationbar.SetupWizardNavBar;
 
 /**
@@ -176,11 +176,6 @@ public class SetupEnrollFingerprint extends EnrollFingerprint
                 default:
                     super.onNavigateNext();
             }
-        }
-
-        @Override
-        protected String getStatsCategory() {
-            return FingerprintStats.Categories.FINGERPRINT_ENROLLMENT_OOBE;
         }
     }
 }
