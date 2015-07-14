@@ -317,6 +317,7 @@ public class EnrollFingerprint extends SettingsActivity
                 mFpM.cancel();
             }
             mFpM.stopListening();
+            cancelEnrollmentStepTimeout();
             super.onDestroy();
         }
 
@@ -371,6 +372,11 @@ public class EnrollFingerprint extends SettingsActivity
             mTitle.setText(stage.titleMessage);
             mInstructions.setText(stage.instructionMessage);
             mInfoGraphic.setImageResource(stage.infoGraphic);
+            EnrollFingerprint activity = getEnrollmentActivity();
+            if (activity == null) {
+                // Activity is gone, nothiing to update here.
+                return;
+            }
             final SetupWizardNavBar setupBar = getEnrollmentActivity().getSetupBar();
 
             if (stage.backMode.enabled) {
