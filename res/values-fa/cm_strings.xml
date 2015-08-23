@@ -17,53 +17,53 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="show_dev_countdown_cm">
-    <item quantity="other">شما اکنون <xliff:g id="step_count">%1$d</xliff:g> مرحله از فعال‌سازی تنظیمات توسعه فاصله دارید.</item>
+    <item quantity="other">شما اکنون <xliff:g id="step_count">%1$d</xliff:g> ضربه با فعال‌سازی ابزارهای توسعه فاصله دارید.</item>
   </plurals>
-  <string name="show_dev_on_cm">شما تنظیمات توسعه را فعال کرده‌اید!</string>
-  <string name="show_dev_already_cm">نیازی نیست، تنظیمات توسعه قبلا فعال شده است.</string>
+  <string name="show_dev_on_cm">شما ابزارهای توسعه را فعال کرده‌اید!</string>
+  <string name="show_dev_already_cm">نیازی نیست، ابزارهای توسعه قبلا فعال شده‌اند.</string>
   <string name="development_tools_title">ابزارهای توسعه</string>
   <string name="root_access">دسترسی روت</string>
   <string name="root_access_warning_title">اجازه دسترسی روت را می‌دهید؟</string>
-  <string name="root_access_warning_message">اجازه دادن به برنامه‌ها برای درخواست دسترسی روت بسیار خطرناک است و می‌تواند امنیت سیستم شما را در معرض خطر قرار دهد!</string>
+  <string name="root_access_warning_message">اجازه دادن به برنامه‌ها برای درخواست دسترسی روت بسیار خطرناک بوده و می‌تواند امنیت سیستم شما را تهدید کند!</string>
   <string name="root_access_none">غیرفعال</string>
   <string name="root_access_apps">فقط برنامه‌ها</string>
   <string name="root_access_adb">فقط ای‌دی‌بی</string>
   <string name="root_access_all">برنامه‌ها و ای‌دی‌بی</string>
-  <string name="ring_mode_title">حالت زنگ</string>
+  <string name="ring_mode_title">حالت زنگ خوردن</string>
   <string name="ring_mode_normal">عادی</string>
   <string name="ring_mode_vibrate">لرزش</string>
   <string name="ring_mode_mute">بی‌صدا</string>
-  <string name="profiles_settings_title">پروفایل‌های سیستم</string>
+  <string name="profiles_settings_title">پروفایل‌ها</string>
   <string name="profiles_add">افزودن</string>
   <string name="profile_settings_title">پروفایل</string>
-  <string name="profile_empty_list_profiles_off">برای پیکربندی و استفاده از پروفایل‌های سیستم، پروفیل‌ها را روشن کنید.</string>
+  <string name="profile_empty_list_profiles_off">برای پیکربندی و استفاده از پروفایل‌های سیستم، پروفایل‌ها را روشن کنید.</string>
   <string name="profile_trigger_configure">پیکربندی راه‌انداز</string>
   <string name="profile_write_nfc_tag">نوشتن روی برچسب ان‌اف‌سی</string>
   <string name="profile_write_touch_tag">برچسب را برای نوشتن لمس کنید</string>
-  <string name="profile_write_success">برچسب با موفقیت نوشته شده است</string>
-  <string name="profile_write_failed">نوشتن برچسب ناموفق بود!</string>
+  <string name="profile_write_success">برچسب با موفقیت نوشته شد</string>
+  <string name="profile_write_failed">نوشتن روی برچسب ناموفق بود!</string>
   <string name="profile_selected">پروفایل انتخاب شده: %1$s</string>
-  <string name="profile_nfc_text">نوشتن یک پروفایل در برچسب NFC باعث می‌شود ضربه‌زدن بر روی برچسب به منظور انتخاب پروفایل فعال شود. ضربه‌زدن برای بار دوم باعث انتخاب پروفایل انتخاب‌شده قبلی می‌شود.</string>
-  <string name="profile_unknown_nfc_tag">پروفایل ناشناخته</string>
-  <string name="profile_add_nfc_text">این برچسب NFC به یک پروفایل ناشناس اشاره دارد. ضمیمه این برچسب NFC به یک پروفایل موجود باعث می‌شود اجازه داشته باشید که در آینده آن را انتخاب کنید.</string>
+  <string name="profile_nfc_text">با نوشتن یک پروفایل روی برچسب ان‌اف‌سی می‌توان آن را با زدن ضربه روی برچسب انتخاب کرد. ضربه زدن برای بار دوم باعث انتخاب پروفایل انتخاب‌شده قبلی می‌شود.</string>
+  <string name="profile_unknown_nfc_tag">پروفایل ناشناس</string>
+  <string name="profile_add_nfc_text">این برچسب ان‌اف‌سی به یک پروفایل ناشناس اشاره دارد. مرتبط کردن آن با یک پروفایل موجود باعث می‌شود بتوانید در آینده آن را انتخاب کنید.</string>
   <string name="profile_select">انتخاب پروفایل</string>
-  <string name="profile_remove_dialog_message">خذف پروفایل %1$s؟</string>
-  <string name="profile_populate_profile_from_state">پیکربندی پروفایل با استفاده از تنظیمات فعلی دستگاه؟</string>
-  <string name="profile_menu_fill_from_state">درون‌ریزی تنظیمات دستگاه فعلی دستگاه</string>
-  <string name="profile_remove_current_profile">پروفایل فعلی را نمی‌توان حذف کرد!</string>
+  <string name="profile_remove_dialog_message">پروفایل %1$s حذف شود؟</string>
+  <string name="profile_populate_profile_from_state">پروفایل با استفاده از تنظیمات کنونی دستگاه پیکربندی شود؟</string>
+  <string name="profile_menu_fill_from_state">وارد کردن تنظیمات کنونی دستگاه</string>
+  <string name="profile_remove_current_profile">پروفایل کنونی را نمی‌توان حذف کرد!</string>
   <string name="profile_app_group_category_title">جایگزین‌های اعلان</string>
   <string name="profile_app_group_item_instructions">افزودن یا حذف گروه</string>
-  <string name="profile_app_group_item_instructions_summary">افزودن یا حذف گروه برنامه‌های جایگزین اعلان برای این پروفایل</string>
+  <string name="profile_app_group_item_instructions_summary">افزودن یا حذف گروه‌های حاوی برنامه جایگزین اعلان به این پروفایل</string>
   <string name="profile_entries_on">روشن</string>
   <string name="profile_entries_off">خاموش</string>
-  <string name="profile_entries_no_override">بدون جایگزینی</string>
+  <string name="profile_entries_no_override">بدون جایگزین</string>
   <string name="profile_name_title">نام</string>
   <string name="new_profile_name">&lt;پروفایل جدید&gt;</string>
   <string name="rename_dialog_title">تغییرنام</string>
   <string name="rename_dialog_message">نام جدیدی وارد کنید</string>
   <string name="rename_dialog_hint">نام پروفایل را وارد کنید</string>
   <string name="profile_reset_title">بازنشانی</string>
-  <string name="profile_reset_message">حذف تمام پروفایل‌های ایجاد شده توسط کاربر و بازیابی آنها به حالت پیش‌فرض؟</string>
+  <string name="profile_reset_message">تمام پروفایل‌های ایجاد شده توسط کاربر حذف و به مقادیر پیش‌فرض بازیابی شوند؟</string>
   <string name="profile_networkmode_2g">2G</string>
   <string name="profile_networkmode_3g">3G</string>
   <string name="profile_networkmode_4g">LTE</string>
@@ -129,9 +129,9 @@
   <string name="volbtn_cursor_control_on">تنظیم صدای بالا/پایین باعث رفتن مکان‌نما به چپ/راست می‌شود</string>
   <string name="volbtn_cursor_control_on_reverse">تنظیم صدای بالا/پایین باعث رفتن مکان‌نما به راست/چپ می‌شود</string>
   <string name="swap_volume_buttons_title">جهت‌گیری مجدد</string>
-  <string name="swap_volume_buttons_summary">هنگام چرخش صفحه کلید، دکمه‌‌های تنظیم صدا را عوض کنید</string>
-  <string name="volume_keys_control_ring_stream_title">کلیدهای میزان صدا، میزان صدای آهنگ زنگ را کنترل می‌کنند</string>
-  <string name="volume_keys_control_ring_stream_summary">در صورت روشن بودن، میزان صدای آهنگ زنگ توسط کلیدهای میزان صدا کنترل می‌شود. در صورت خاموش بودن، میزان صدای رسانه توسط کلیدهای میزان صدا کنترل می‌شود.</string>
+  <string name="swap_volume_buttons_summary">هنگام چرخش صفحه کلید، کلیدهای تنظیم صدا برعکس شوند</string>
+  <string name="volume_keys_control_ring_stream_title">کلیدهای صدا، میزان صدای زنگ را کنترل می‌کنند</string>
+  <string name="volume_keys_control_ring_stream_summary">در صورت روشن بودن، کلیدهای صدا میزان صدای زنگ را کنترل می‌کنند. در صورت خاموش بودن، کلیدهای صدا میزان صدای رسانه را کنترل می‌کنند.</string>
   <string name="power_end_call_title">پایان دادن به تماس</string>
   <string name="power_end_call_summary">فشار دکمه روشن/خاموش باعث خاتمه تماس فعلی می‌شود</string>
   <string name="button_wake_title">بیدار باش دستگاه</string>
@@ -150,7 +150,7 @@
   <string name="backlight_summary_enabled">فعال</string>
   <string name="power_menu_title">منوی پاور</string>
   <string name="power_menu_reboot_title">منوی راه‌اندازی مجدد</string>
-  <string name="power_menu_screenshot_title">عکس از صفحه نمایش</string>
+  <string name="power_menu_screenshot_title">تصویر صفحه</string>
   <string name="power_menu_profiles_title">سوئیچر پروفایل</string>
   <string name="power_menu_airplane_title">حالت هواپیما</string>
   <string name="power_menu_users_title">سوئیچر کاربر</string>
@@ -479,6 +479,7 @@
   <string name="ok">بسیارخب</string>
   <string name="profile_menu_delete_title">حذف</string>
   <string name="profile_action_none">ترک بدون تغییر</string>
+  <string name="profile_action_system">پیش‌فرض سیستم</string>
   <string name="profile_action_disable">خاموش کردن</string>
   <string name="profile_action_enable">روشن کردن</string>
   <string name="profile_trigger_a2dp_connect">در اتصال A2DP</string>
@@ -505,7 +506,7 @@
   <string name="lights_mode">حالت چراغ</string>
   <string name="vibrate_mode">حالت لرزش</string>
   <string name="choose_soundtone">انتخاب صدای اعلان</string>
-  <string name="choose_ringtone">انتخاب آهنگ زنگ</string>
+  <string name="choose_ringtone">انتخاب صدای زنگ</string>
   <string name="soundtone_title">صدای اعلان</string>
   <string name="no_bluetooth_triggers">هیچ دستگاه بلوتوثی جفت نشد.\nقبل از پیکربندی راه‌اندازها، برای جفت‌شدن بلوتوث ضربه بزنید.</string>
   <string name="no_wifi_triggers">هیچ نقطه دسترسی وای‌فای پیدا نشد.\nقبل از پیکربندی راه‌اندازها، برای اتصال به وای‌فای ضربه بزنید.</string>
@@ -660,7 +661,7 @@
   <string name="power_notifications_enable_summary">پخش صدا هنگام اتصال یا قطع اتصال منبع نیرو</string>
   <string name="power_notifications_vibrate_title">لرزش</string>
   <string name="power_notifications_ringtone_title">صدای اعلان</string>
-  <string name="power_notifications_ringtone_silent">سکوت</string>
+  <string name="power_notifications_ringtone_silent">بی‌صدا</string>
   <string name="voice_wakeup_settings_title">بیدارباش صوتی</string>
   <string name="voice_wakeup_retrain_title">آموزش مجدد صدای خود</string>
   <string name="voice_wakeup_activity_title">فعالیت موردنظر برای شروع</string>
@@ -683,7 +684,7 @@
   <string name="unlock_quick_unlock_control_summary">بازکردن خودکار هنگام واردشدن پین/رمزعبور صحیح</string>
   <string name="unlock_scramble_pin_layout_title">چینش درهم</string>
   <string name="unlock_scramble_pin_layout_summary">چینش درهم پین هنگام بازکرن قفل دستگاه</string>
-  <string name="link_volume_option_title">یکی کردن صدای اعلان و زنگ</string>
+  <string name="link_volume_option_title">یکی کردن صدای زنگ و اعلان</string>
   <string name="notification_volume_option_title">صدای اعلان</string>
   <string name="notification_drawer_title">کشوی اعلان</string>
   <string name="quick_pulldown_title">کشیدن سریع به پایین</string>
@@ -809,7 +810,7 @@
   <string name="power_usage_history_title">میزان استفاده از باتری</string>
   <string name="recents_show_searchbar">نمایش نوار جستجو در منوی برنامه‌های اخیر</string>
   <string name="keywords_recents_show_searchbar">موارد اخیر اخیر غیرفعال‌کردن فعال‌کردن نمایش مخفی‌سازی نوار جستجو نوارجستجو</string>
-  <string name="sim_ringtone_title">آهنگ زنگ سیمکارت %d</string>
+  <string name="sim_ringtone_title">صدای زنگ سیم کارت %d</string>
   <string name="interruptions_ignore_while_media_title">جلوگیری از کم‌کردن صدای منبع ثانویه</string>
   <string name="interruptions_ignore_while_media_summary">کاهش نیافتن صدای بازنواخت رسانه هنگام دریافت اعلان</string>
   <string name="none_is_silent_title">هشدارها هرگز قطع نشوند</string>
@@ -890,6 +891,7 @@
   <string name="fingerprint_enrollment_scan_title">به مدت ۳ ثانیه نگه دارید</string>
   <string name="fingerprint_enrollment_scan_instructions">برای شروع تنظیمات، انگشت سبابه خود را بر روی حسگر اثر انگشت قرار دهید. هنگام لمس لرزش، انگشت خود را بردارید.</string>
   <string name="fingerprint_enrollment_error_title_wrong_sensor">لطفاً دوباره امتحان کنید</string>
+  <string name="fingerprint_enrollment_error_message">برای حصول اطمینان از یک اسکن دقیق، انگشت خود را به طور ثابت بر روی حسگر اثر انگشت قرار دهید. همچنین اطمینان حاصل کنید که از همان انگشت قبلی استفاده می‌کنید. هنگام حس کردن لرزش، انگشت خود را بردارید.</string>
   <string name="fingerprint_enrollment_scan_instructions">برای شروع تنظیمات، انگشت سبابه خود را بر روی حسگر اثر انگشت قرار دهید. هنگام لمس لرزش، انگشت خود را بردارید.</string>
   <string name="fingerprint_enrollment_break_title">ادامه با همین میزان نگه‌داشتن</string>
   <string name="fingerprint_enrollment_break_instructions">ادامه دهید تا حاشیه‌های پرینت شما ثبت شود. هنگام حس‌کردن لرزش، انگشت خود را بردارید.</string>
@@ -916,6 +918,7 @@
   <string name="fingerprint_enrollment_error_title_3">خب، یک چیزی اشتباه بود</string>
   <string name="fingerprint_enrollment_error_title_4">اوه اوه، دوباره امتحان کنید</string>
   <string name="fingerprint_enrollment_error_title_5">ای وای، خطایی رخ داد</string>
+  <string name="lockscreen_settings_and_fingerprint">صفحه قفل &amp; اثر انگشت</string>
   <string name="menu_stats_reset">بازنشنانی آمار</string>
   <string name="reset_stats_msg">قرار است آمار تاریخچه باتری مجدداً تنظیم شود</string>
   <string name="dock_battery_not_present">داک باتری وجود ندارد</string>
@@ -923,4 +926,7 @@
   <string name="battery_info_status_charging_dock_usb">در حال شارژ از طریق USB</string>
   <string name="setup_lock_pattern_size_title">پیچیدگی الگو</string>
   <string name="setup_lock_pattern_size_details">تمایل دارید با الگوی خود از چند گره استفاده کنید؟ تعداد گره‌های بیشتر به معنای پیچیدگی بیشتر الگو می‌باشد.</string>
+  <string name="lto_download_data_wifi_only">دانلود داده‌های کمکی جی پی اس</string>
+  <string name="lto_download_data_wifi_only_on">با هر شبکه‌ای</string>
+  <string name="lto_download_data_wifi_only_off">تنها با شبکه‌های وای‌فای</string>
 </resources>
